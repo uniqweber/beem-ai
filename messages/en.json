@@ -1,0 +1,153 @@
+{
+    "Home": {
+        "metaTitle": "Leading Platform for Agentic Automation & AI Agents | Beam AI",
+        "metaDescription": "Automate processes with powerful AI Agents ✓ Build & deploy agents in minutes ✓ Seamlessly integrate into your workflows ➤ Start automating today!",
+        "Hero": {
+            "title": "Exclusive Webinars - Sign Up",
+            "subtitle": "Hire Self-Evolving AI Agents to Run Your Operations",
+            "description": "Meet the leading agentic AI platform for Agentic Process Automation. Used by Fortune 500 companies and scale-ups, the platform automates workflows with an advanced AI agent platform to reduce operational cost and create leverage",
+            "cta": "Request Access"
+        },
+        "Logos": "Used by Fortune 500 Companies & Scale ups",
+        "Agents": {
+            "title": "AI Agents Templates",
+            "subtitle": "AI Agents: Reliable Workforce With Human-Level Performance",
+            "description": "AI agents deliver precise, efficient task automation, matching human-level performance. They operate continuously, reducing errors and increasing productivity, allowing businesses to scale fast without additional human resource costs.",
+            "cta": "See all agents"
+        },
+        "OS": {
+            "title": "Agent OS",
+            "subtitle": "Agentic. Reliable. Accurate AI for Enterprise ",
+            "description": "An AI-native platform that combines accuracy, reliability, and flexibility in one powerful solution. With multi-agent capabilities and a modular design, it acts as the glue between your systems.",
+            "cta": "Explore our platform"
+        },
+        "Benefits": {
+            "title": "Benefits",
+            "subtitle": "Improve Operational Efficiency and Create Leverage. Fast.",
+            "description": "Deploy AI agents to streamline operations and amplify your business's efficiency. These agents optimize processes, reduce delays, and enhance output, ensuring you gain a competitive edge with speed and precision."
+        },
+        "Customers": {
+            "title": "Customers",
+            "subtitle": "Industry Specific AI: One Platform for All Your Needs",
+            "description": "Explore how AI delivers tangible results in diverse scenarios. From optimizing workflows to driving innovation, see concise examples of how our technology addresses specific challenges and enhances performance across various fields.",
+            "cta": "Our customers",
+            "CaseStudies": [
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Property & Real Estate",
+                    "title": "Leading European Neo-Bank Solves Address Verification with Beam AI Agents",
+                    "cta": "Read Case Study"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Financial Services & Banking",
+                    "title": "Streamlining Quotation Generation with AI Automation",
+                    "cta": "Read Case Study"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Supply Chain & Logistics",
+                    "title": "Transforming Order Management with AI Agents for a Leading B2B Bakery Supplier",
+                    "cta": "Read Case Study"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Retail & E-Commerce",
+                    "title": "Automating Contact Management Across 5 Systems with Agentic AI",
+                    "cta": "Read Case Study"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "BPO",
+                    "title": "How a Global Chemical Company Replaced Their BPO with AI Agents and Reduced Costs by 63%",
+                    "cta": "Read Case Study"
+                }
+            ]
+        },
+        "Solutions": {
+            "title": "Solutions",
+            "subtitle": "Build Your AI Workforce Today",
+            "description": "With Beam AI, build an AI workforce that automates tasks efficiently. Deploy intelligent agents to streamline operations and improve performance across your business today!",
+            "cta": "Speak to us"
+        },
+        "FAQ": {
+            "title": "FAQ",
+            "subtitle": "Frequently Asked Questions",
+            "description": "Learn the answers to common questions about our AI solutions, tools, and services, helping you understand how they can benefit your business and streamline operations.",
+            "Questions": [
+                {
+                    "question": "What is agentic AI?",
+                    "answer": "Agentic AI refers to self-learning AI systems that autonomously make decisions and execute tasks, adapting dynamically to changes in workflows."
+                },
+                {
+                    "question": "How can AI automation scale operations with intelligent agents?",
+                    "answer": "AI automation transforms business processes by enabling agentic AI systems to autonomously manage workflows, optimize performance, and drive efficiency at scale. By leveraging self-learning AI, companies achieve seamless automation, eliminating repetitive tasks and accelerating decision-making. Beam’s AI agent platform ensures businesses stay ahead by integrating autonomous intelligence into their core operations."
+                },
+                {
+                    "question": "What are our AI tools and their benefits?",
+                    "answer": "Not all AI agent platforms are the same. Beam goes beyond traditional automation by leveraging fully autonomous, self-learning agents that dynamically adapt to evolving business needs. Unlike rule-based automation tools, our agentic AI systems continuously optimize workflows, making them smarter over time.\n\nCompanies using Beam AI benefit from:\n1. Faster Process Automation – AI agents execute tasks with minimal human intervention.\n2. Reduced Operational Costs – Automated workflows lower labor expenses and increase efficiency.\n3. Scalable AI Workforce – Deploy multiple AI agents without the overhead of hiring additional staff."
+                },
+                {
+                    "question": "What AI courses are available for businesses?",
+                    "answer": "Want to harness the full potential of AI-powered automation? Our Beam Academy provides hands-on tutorials to help you build, deploy, and optimize AI agents for your business. Learn how to streamline workflows, enhance decision-making, and integrate AI seamlessly into your operations."
+                }
+            ]
+        },
+
+        "Footer": {
+            "subscribe": "Subscribe to our newsletter",
+            "cta": "Subscribe",
+            "copyright": "© Beam AI. All rights reserved 2025",
+            "Navigation": {
+                "Platform": [
+                    {"title": "AI Agent Platform", "link": "/platform/agent-platform"},
+                    {"title": "AI Agent Tools", "link": "/platform/agent-tools"},
+                    {"title": "AI Agents", "link": "/platform/agents"},
+                    {"title": "Agentic Workflows", "link": "/platform/workflows"},
+                    {"title": "AgentOS", "link": "/platform/agentos"},
+                    {"title": "Database, Memory & Rag", "link": "/platform/database-memory-rag"},
+                    {"title": "Integrations", "link": "/platform/integrations"}
+                ],
+                "Solutions": [
+                    {"title": "BPO", "link": "/solutions/bpo"},
+                    {"title": "Custom AI Solutions", "link": "/solutions/custom-ai"},
+                    {"title": "Customer Service", "link": "/solutions/customer-service"},
+                    {"title": "Debt Collection", "link": "/solutions/debt-collection"},
+                    {"title": "Financial Services", "link": "/solutions/financial-services"},
+                    {"title": "Healthcare", "link": "/solutions/healthcare"},
+                    {"title": "Insurance", "link": "/solutions/insurance"},
+                    {"title": "Staffing & RPO", "link": "/solutions/staffing-rpo"},
+                    {"title": "Talent Acquisition", "link": "/solutions/talent-acquisition"},
+                    {"title": "Property Management", "link": "/solutions/property-management"}
+                ],
+                "Resources": [
+                    {"title": "Agentic Insights", "link": "/resources/insights"},
+                    {"title": "Agentic Automation 101", "link": "/resources/automation-101"},
+                    {"title": "Webinars", "link": "/resources/webinars"},
+                    {"title": "Changelog", "link": "/resources/changelog"},
+                    {"title": "Partner Program", "link": "/resources/partner-program"},
+                    {"title": "Beam Academy", "link": "/resources/beam-academy"},
+                    {"title": "Use Cases", "link": "/resources/use-cases"},
+                    {"title": "Case Studies", "link": "/resources/case-studies"},
+                    {"title": "Customers", "link": "/resources/customers"},
+                    {"title": "AI Native", "link": "/resources/ai-native"}
+                ],
+                "Company": [
+                    {"title": "About Us", "link": "/company/about"},
+                    {"title": "Career", "link": "/company/career"},
+                    {"title": "Contact", "link": "/company/contact"},
+                    {"title": "Request Demo", "link": "/company/request-demo"},
+                    {"title": "Trust Center", "link": "/company/trust-center"}
+                ],
+                "Legal": [
+                    {"title": "Legal", "link": "/company/legal"},
+                    {"title": "Privacy Policy", "link": "/company/privacy-policy"},
+                    {"title": "Security", "link": "/company/security"},
+                    {"title": "Data Protection", "link": "/company/data-protection"},
+                    {"title": "Terms of Use", "link": "/company/terms-of-use"},
+                    {"title": "Imprint", "link": "/company/imprint"}
+                ]
+            }
+        }
+    }
+}

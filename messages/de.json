@@ -1,0 +1,152 @@
+{
+    "Home": {
+        "metaTitle": "Führende Plattform für Agentische Automatisierung & KI-Agenten | Beam AI",
+        "metaDescription": "Automatisieren Sie Prozesse mit leistungsstarken KI-Agenten ✓ Erstellen und implementieren Sie Agenten in Minuten ✓ Nahtlose Integration in Ihre Workflows ➤ Starten Sie heute mit der Automatisierung!",
+        "Hero": {
+            "title": "Exklusive Webinare - Jetzt anmelden",
+            "subtitle": "Stellen Sie sich selbst entwickelnde KI-Agenten für Ihre Betriebsabläufe ein",
+            "description": "Erleben Sie die führende agentische KI-Plattform für Agentische Prozessautomatisierung. Genutzt von Fortune-500-Unternehmen und Scale-ups, automatisiert die Plattform Workflows mit einer fortschrittlichen KI-Agentenplattform, um Betriebskosten zu senken und Hebelwirkung zu schaffen",
+            "cta": "Zugang anfordern"
+        },
+        "Logos": "Genutzt von Fortune-500-Unternehmen und Scale-ups",
+        "Agents": {
+            "title": "KI-Agenten-Vorlagen",
+            "subtitle": "KI-Agenten: Zuverlässige Arbeitskräfte mit menschlicher Leistung",
+            "description": "KI-Agenten bieten präzise, effiziente Aufgabenautomatisierung und erreichen menschliche Leistung. Sie arbeiten kontinuierlich, reduzieren Fehler und steigern die Produktivität, sodass Unternehmen schnell skalieren können, ohne zusätzliche Personalkosten.",
+            "cta": "Alle Agenten anzeigen"
+        },
+        "OS": {
+            "title": "Agent OS",
+            "subtitle": "Agentisch. Zuverlässig. Präzise KI für Unternehmen",
+            "description": "Eine KI-native Plattform, die Genauigkeit, Zuverlässigkeit und Flexibilität in einer leistungsstarken Lösung vereint. Mit Multi-Agenten-Fähigkeiten und modularem Design fungiert sie als Bindeglied zwischen Ihren Systemen.",
+            "cta": "Unsere Plattform erkunden"
+        },
+        "Benefits": {
+            "title": "Vorteile",
+            "subtitle": "Verbessern Sie die Betriebseffizienz und schaffen Sie Hebelwirkung. Schnell.",
+            "description": "Setzen Sie KI-Agenten ein, um Abläufe zu optimieren und die Effizienz Ihres Unternehmens zu steigern. Diese Agenten optimieren Prozesse, reduzieren Verzögerungen und verbessern die Leistung, sodass Sie mit Geschwindigkeit und Präzision einen Wettbewerbsvorteil erzielen."
+        },
+        "Customers": {
+            "title": "Kunden",
+            "subtitle": "Branchenspezifische KI: Eine Plattform für alle Ihre Bedürfnisse",
+            "description": "Entdecken Sie, wie KI in verschiedenen Szenarien konkrete Ergebnisse liefert. Von der Optimierung von Workflows bis zur Förderung von Innovationen sehen Sie prägnante Beispiele dafür, wie unsere Technologie spezifische Herausforderungen bewältigt und die Leistung in verschiedenen Bereichen verbessert.",
+            "cta": "Unsere Kunden",
+            "CaseStudies": [
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Immobilien & Real Estate",
+                    "title": "Führende europäische Neo-Bank löst Adressverifizierung mit Beam KI-Agenten",
+                    "cta": "Fallstudie lesen"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Finanzdienstleistungen & Banking",
+                    "title": "Optimierung der Angebotserstellung mit KI-Automatisierung",
+                    "cta": "Fallstudie lesen"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Lieferkette & Logistik",
+                    "title": "Transformation des Auftragsverwaltung mit KI-Agenten für einen führenden B2B-Bäckereilieferanten",
+                    "cta": "Fallstudie lesen"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "Einzelhandel & E-Commerce",
+                    "title": "Automatisierung des Kontaktmanagements über 5 Systeme mit agentischer KI",
+                    "cta": "Fallstudie lesen"
+                },
+                {
+                    "img": "/images/placeholder.jpg",
+                    "category": "BPO",
+                    "title": "Wie ein globales Chemieunternehmen sein BPO durch KI-Agenten ersetzte und die Kosten um 63% senkte",
+                    "cta": "Fallstudie lesen"
+                }
+            ]
+        },
+        "Solutions": {
+            "title": "Lösungen",
+            "subtitle": "Bauen Sie heute Ihre KI-Belegschaft auf",
+            "description": "Mit Beam AI bauen Sie eine KI-Belegschaft auf, die Aufgaben effizient automatisiert. Setzen Sie intelligente Agenten ein, um Abläufe zu optimieren und die Leistung in Ihrem gesamten Unternehmen zu verbessern!",
+            "cta": "Sprechen Sie mit uns"
+        },
+        "FAQ": {
+            "title": "FAQ",
+            "subtitle": "Häufig gestellte Fragen",
+            "description": "Erfahren Sie die Antworten auf häufige Fragen zu unseren KI-Lösungen, Tools und Dienstleistungen, damit Sie verstehen, wie sie Ihrem Unternehmen zugute kommen und Abläufe optimieren können.",
+            "Questions": [
+                {
+                    "question": "Was ist agentische KI?",
+                    "answer": "Agentische KI bezieht sich auf selbstlernende KI-Systeme, die autonom Entscheidungen treffen und Aufgaben ausführen und sich dynamisch an Änderungen in Workflows anpassen."
+                },
+                {
+                    "question": "Wie kann KI-Automatisierung den Betrieb mit intelligenten Agenten skalieren?",
+                    "answer": "KI-Automatisierung transformiert Geschäftsprozesse, indem sie agentischen KI-Systemen ermöglicht, Workflows autonom zu verwalten, die Leistung zu optimieren und die Effizienz im großen Maßstab zu steigern. Durch die Nutzung selbstlernender KI erreichen Unternehmen nahtlose Automatisierung, eliminieren sich wiederholende Aufgaben und beschleunigen die Entscheidungsfindung. Die KI-Agentenplattform von Beam stellt sicher, dass Unternehmen an der Spitze bleiben, indem sie autonome Intelligenz in ihre Kernabläufe integriert."
+                },
+                {
+                    "question": "Was sind unsere KI-Tools und ihre Vorteile?",
+                    "answer": "Nicht alle KI-Agentenplattformen sind gleich. Beam geht über traditionelle Automatisierung hinaus, indem es vollständig autonome, selbstlernende Agenten nutzt, die sich dynamisch an sich entwickelnde Geschäftsanforderungen anpassen. Im Gegensatz zu regelbasierten Automatisierungstools optimieren unsere agentischen KI-Systeme kontinuierlich Workflows und werden im Laufe der Zeit intelligenter.\n\nUnternehmen, die Beam AI nutzen, profitieren von:\n1. Schnellere Prozessautomatisierung – KI-Agenten führen Aufgaben mit minimaler menschlicher Intervention aus.\n2. Reduzierte Betriebskosten – Automatisierte Workflows senken Arbeitskosten und steigern die Effizienz.\n3. Skalierbare KI-Belegschaft – Setzen Sie mehrere KI-Agenten ein, ohne den Overhead zusätzlicher Mitarbeiter."
+                },
+                {
+                    "question": "Welche KI-Kurse sind für Unternehmen verfügbar?",
+                    "answer": "Möchten Sie das volle Potenzial der KI-gestützten Automatisierung nutzen? Unsere Beam Academy bietet praktische Tutorials, um Ihnen beim Aufbau, der Bereitstellung und Optimierung von KI-Agenten für Ihr Unternehmen zu helfen. Lernen Sie, wie Sie Workflows optimieren, die Entscheidungsfindung verbessern und KI nahtlos in Ihre Abläufe integrieren."
+                }
+            ]
+        },
+        "Footer": {
+            "subscribe": "Abonnieren Sie unseren Newsletter",
+            "cta": "Abonnieren",
+            "copyright": "© Beam AI. Alle Rechte vorbehalten 2025",
+            "Navigation": {
+                "Platform": [
+                    {"title": "KI-Agentenplattform", "link": "/platform/agent-platform"},
+                    {"title": "KI-Agenten-Tools", "link": "/platform/agent-tools"},
+                    {"title": "KI-Agenten", "link": "/platform/agents"},
+                    {"title": "Agentische Workflows", "link": "/platform/workflows"},
+                    {"title": "AgentOS", "link": "/platform/agentos"},
+                    {"title": "Datenbank, Speicher & Rag", "link": "/platform/database-memory-rag"},
+                    {"title": "Integrationen", "link": "/platform/integrations"}
+                ],
+                "Solutions": [
+                    {"title": "BPO", "link": "/solutions/bpo"},
+                    {"title": "Maßgeschneiderte KI-Lösungen", "link": "/solutions/custom-ai"},
+                    {"title": "Kundenservice", "link": "/solutions/customer-service"},
+                    {"title": "Inkasso", "link": "/solutions/debt-collection"},
+                    {"title": "Finanzdienstleistungen", "link": "/solutions/financial-services"},
+                    {"title": "Gesundheitswesen", "link": "/solutions/healthcare"},
+                    {"title": "Versicherung", "link": "/solutions/insurance"},
+                    {"title": "Personalvermittlung & RPO", "link": "/solutions/staffing-rpo"},
+                    {"title": "Talentakquise", "link": "/solutions/talent-acquisition"},
+                    {"title": "Immobilienverwaltung", "link": "/solutions/property-management"}
+                ],
+                "Resources": [
+                    {"title": "Agentische Einblicke", "link": "/resources/insights"},
+                    {"title": "Agentische Automatisierung 101", "link": "/resources/automation-101"},
+                    {"title": "Webinare", "link": "/resources/webinars"},
+                    {"title": "Changelog", "link": "/resources/changelog"},
+                    {"title": "Partnerprogramm", "link": "/resources/partner-program"},
+                    {"title": "Beam Academy", "link": "/resources/beam-academy"},
+                    {"title": "Anwendungsfälle", "link": "/resources/use-cases"},
+                    {"title": "Fallstudien", "link": "/resources/case-studies"},
+                    {"title": "Kunden", "link": "/resources/customers"},
+                    {"title": "KI-Native", "link": "/resources/ai-native"}
+                ],
+                "Company": [
+                    {"title": "Über uns", "link": "/company/about"},
+                    {"title": "Karriere", "link": "/company/career"},
+                    {"title": "Kontakt", "link": "/company/contact"},
+                    {"title": "Demo anfordern", "link": "/company/request-demo"},
+                    {"title": "Vertrauenscenter", "link": "/company/trust-center"}
+                ],
+                "Legal": [
+                    {"title": "Rechtliches", "link": "/company/legal"},
+                    {"title": "Datenschutzrichtlinie", "link": "/company/privacy-policy"},
+                    {"title": "Sicherheit", "link": "/company/security"},
+                    {"title": "Datenschutz", "link": "/company/data-protection"},
+                    {"title": "Nutzungsbedingungen", "link": "/company/terms-of-use"},
+                    {"title": "Impressum", "link": "/company/imprint"}
+                ]
+            }
+        }
+    }
+}
