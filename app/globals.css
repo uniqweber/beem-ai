@@ -1,5 +1,76 @@
 @import "tailwindcss";
 
+@theme {
+    --color-primary: #1a66ff;
+    --font-figtree: var(--font-figtree);
+}
+
 body {
-    @apply bg-black text-white;
+    @apply bg-black text-white font-figtree;
+}
+
+button {
+    cursor: pointer;
+}
+
+@layer utilities {
+    .max-container {
+        @apply max-w-[1200px] mx-auto px-4 lg:px-0;
+    }
+    .gradient-bg {
+        background: linear-gradient(#ff2ef705 0%, #ff2ef740 100%);
+    }
+}
+
+/* Fortune Company Logo Animation */
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logo-carousel-mask {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+
+    mask-image: linear-gradient(to right, transparent 0%, white 10%, white 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        white 10%,
+        white 90%,
+        transparent 100%
+    );
+}
+
+.logo-track {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    gap: 2.5rem;
+    animation: scroll 50s linear infinite;
+}
+
+.logo-item {
+    height: 1.75rem;
+    width: auto;
+    transition: opacity 500ms ease-in-out;
+}
+
+
+
+.logo-carousel-group:hover .logo-track {
+    animation-play-state: paused;
+}
+
+.logo-track-duplicate {
+    display: flex;
+    gap: 2.5rem;
 }

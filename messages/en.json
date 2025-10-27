@@ -33,31 +33,31 @@
             "cta": "Our customers",
             "CaseStudies": [
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-01.avif",
                     "category": "Property & Real Estate",
                     "title": "Leading European Neo-Bank Solves Address Verification with Beam AI Agents",
                     "cta": "Read Case Study"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-02.avif",
                     "category": "Financial Services & Banking",
                     "title": "Streamlining Quotation Generation with AI Automation",
                     "cta": "Read Case Study"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-03.avif",
                     "category": "Supply Chain & Logistics",
                     "title": "Transforming Order Management with AI Agents for a Leading B2B Bakery Supplier",
                     "cta": "Read Case Study"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-04.avif",
                     "category": "Retail & E-Commerce",
                     "title": "Automating Contact Management Across 5 Systems with Agentic AI",
                     "cta": "Read Case Study"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-05.avif",
                     "category": "BPO",
                     "title": "How a Global Chemical Company Replaced Their BPO with AI Agents and Reduced Costs by 63%",
                     "cta": "Read Case Study"

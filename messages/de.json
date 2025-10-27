@@ -33,31 +33,31 @@
             "cta": "Unsere Kunden",
             "CaseStudies": [
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-01.avif",
                     "category": "Immobilien & Real Estate",
                     "title": "Führende europäische Neo-Bank löst Adressverifizierung mit Beam KI-Agenten",
                     "cta": "Fallstudie lesen"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-02.avif",
                     "category": "Finanzdienstleistungen & Banking",
                     "title": "Optimierung der Angebotserstellung mit KI-Automatisierung",
                     "cta": "Fallstudie lesen"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-03.avif",
                     "category": "Lieferkette & Logistik",
                     "title": "Transformation des Auftragsverwaltung mit KI-Agenten für einen führenden B2B-Bäckereilieferanten",
                     "cta": "Fallstudie lesen"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-04.avif",
                     "category": "Einzelhandel & E-Commerce",
                     "title": "Automatisierung des Kontaktmanagements über 5 Systeme mit agentischer KI",
                     "cta": "Fallstudie lesen"
                 },
                 {
-                    "img": "/images/placeholder.jpg",
+                    "img": "/case-studies-05.avif",
                     "category": "BPO",
                     "title": "Wie ein globales Chemieunternehmen sein BPO durch KI-Agenten ersetzte und die Kosten um 63% senkte",
                     "cta": "Fallstudie lesen"
@@ -71,7 +71,7 @@
             "cta": "Sprechen Sie mit uns"
         },
         "FAQ": {
-            "title": "FAQ",
+            "title": "Häufig gestellte Fragen",
             "subtitle": "Häufig gestellte Fragen",
             "description": "Erfahren Sie die Antworten auf häufige Fragen zu unseren KI-Lösungen, Tools und Dienstleistungen, damit Sie verstehen, wie sie Ihrem Unternehmen zugute kommen und Abläufe optimieren können.",
             "Questions": [

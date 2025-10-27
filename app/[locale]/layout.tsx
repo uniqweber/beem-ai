@@ -1,11 +1,18 @@
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
+import {Figtree} from "next/font/google";
 import {notFound} from "next/navigation";
 
 import Footer from "@/components/shared/footer";
 import Navbar from "@/components/shared/navbar";
+import LocaleRedirect from "@/components/shared/redirect";
 import {routing} from "@/i18n/routing";
-import { Locale } from "@/types";
+import {Locale} from "@/types";
+
+const figtree = Figtree({
+    subsets: ["latin"],
+    variable: "--font-figtree",
+});
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({locale}));
@@ -16,9 +23,10 @@ export default async function LocaleLayout({
     params,
 }: {
     children: React.ReactNode;
-    params: Promise<{locale: string}>;
+    params: {locale: string} | Promise<{locale: string}>;
 }) {
-    const {locale} = await params;
+    const resolvedParams = await params;
+    const {locale} = resolvedParams;
 
     // Validate locale
     if (!routing.locales.includes(locale as Locale)) {
@@ -33,14 +41,11 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} dir={dir}>
-            <body>
-                <NextIntlClientProvider messages={messages}>
-                    <Navbar />
-
-                    <main className="min-h-[calc(100vh-180px)] flex h-40 cursor-pointer items-center justify-center">
-                        {children}
-                    </main>
-
+            <body className={`${figtree.variable} antialiased`}>
+                <NextIntlClientProvider locale={locale} messages={messages}>
+                    <LocaleRedirect />
+                    <Navbar locale={locale} />
+                    <main className="mt-20">{children}</main>
                     <Footer params={locale} />
                 </NextIntlClientProvider>
             </body>
