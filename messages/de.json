@@ -2,6 +2,18 @@
     "Home": {
         "metaTitle": "Führende Plattform für Agentische Automatisierung & KI-Agenten | Beam AI",
         "metaDescription": "Automatisieren Sie Prozesse mit leistungsstarken KI-Agenten ✓ Erstellen und implementieren Sie Agenten in Minuten ✓ Nahtlose Integration in Ihre Workflows ➤ Starten Sie heute mit der Automatisierung!",
+        "Navbar": {
+            "pages": [
+                {"label": "Startseite", "href": "/"},
+                {"label": "Agenten", "href": "/#agents"},
+                {"label": "Preise", "href": "/#pricing"},
+                {"label": "Buchung", "href": "/booking"},
+                {"label": "Kontakt", "href": "/contact"}
+            ],
+            "login": "Anmelden",
+            "cta": "Zugang Anfordern"
+        },
+
         "Hero": {
             "title": "Exklusive Webinare - Jetzt anmelden",
             "subtitle": "Stellen Sie sich selbst entwickelnde KI-Agenten für Ihre Betriebsabläufe ein",
@@ -13,7 +25,104 @@
             "title": "KI-Agenten-Vorlagen",
             "subtitle": "KI-Agenten: Zuverlässige Arbeitskräfte mit menschlicher Leistung",
             "description": "KI-Agenten bieten präzise, effiziente Aufgabenautomatisierung und erreichen menschliche Leistung. Sie arbeiten kontinuierlich, reduzieren Fehler und steigern die Produktivität, sodass Unternehmen schnell skalieren können, ohne zusätzliche Personalkosten.",
-            "cta": "Alle Agenten anzeigen"
+            "cta": "Alle Agenten anzeigen",
+            "Carousel": {
+                "workflow_heading": "Arbeitsabläufe",
+                "categories": {
+                    "GENERAL PURPOSE SOLVERS": "ALLZWECKLÖSUNGEN",
+                    "RETAIL & E-COMMERCE": "EINZELHANDEL & E-COMMERCE",
+                    "CONSUMER SERVICE": "VERBRAUCHERDIENSTE",
+                    "ENTERTAINMENT & MEDIA": "UNTERHALTUNG & MEDIEN",
+                    "FINANCIAL SERVICES & BANKING": "FINANZDIENSTLEISTUNGEN & BANKWESEN"
+                },
+                "agents": [
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "KI-Agent für Dateneingabe",
+                        "workflows": ["Datenerfassung", "Ausführung der Dateneingabe"],
+                        "image": "/agent-001.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "KI-Agent für Angebotsanfragen (RFP)",
+                        "workflows": [
+                            "Konformitätsprüfung",
+                            "Entwurf und Formatierung von Vorschlägen"
+                        ],
+                        "image": "/agent-002.png"
+                    },
+                    {
+                        "category": "RETAIL & E-COMMERCE",
+                        "title": "KI-Agent für Lieferkettenlager",
+                        "workflows": ["Auftragsbearbeitung", "Auftragserfüllung"],
+                        "image": "/agent-003.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "KI-Agent für Kundenerfahrung",
+                        "workflows": [
+                            "Verwaltung von Treueprogrammen",
+                            "Personalisierte Rabattabwicklung",
+                            "Wiederherstellung nach Automatisierung"
+                        ],
+                        "image": "/agent-004.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "KI-Agent für Kundenservice",
+                        "workflows": [
+                            "Eingehende Anrufe",
+                            "Bearbeitung des Bestellstatus",
+                            "Bearbeitung von Produktrückgabeanfragen"
+                        ],
+                        "image": "/agent-005.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "KI-Agent für E-Mail-Triage",
+                        "workflows": [
+                            "E-Mail-Klassifizierung",
+                            "E-Mail-Weiterleitung",
+                            "Automatische Antwort"
+                        ],
+                        "image": "/agent-006.png"
+                    },
+                    {
+                        "category": "ENTERTAINMENT & MEDIA",
+                        "title": "KI-Agent für Inhaltsaggregation",
+                        "workflows": ["Informationssammlung aus verschiedenen Quellen"],
+                        "image": "/agent-007.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "KI-Agent für Debitorenbuchhaltung",
+                        "workflows": ["Rechnungsbuchung"],
+                        "image": "/agent-008.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "KI-Agent für Abrechnungsunterstützung",
+                        "workflows": ["Abrechnungsstreitigkeiten", "Abrechnungsunterstützung"],
+                        "image": "/agent-009.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "KI-Agent zur Compliance-Überwachung",
+                        "workflows": [
+                            "Konformitätsprüfung",
+                            "Compliance-Überwachung",
+                            "Bearbeitung von Abonnementanfragen"
+                        ],
+                        "image": "/agent-010.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "KI-Agent für Logistik & Versand: Schluss mit verlorenen Sendungen durch Zollverzögerungen und Dokumentationsfehler",
+                        "workflows": ["Versanddaten"],
+                        "image": "/agent-011.png"
+                    }
+                ]
+            }
         },
         "OS": {
             "title": "Agent OS",
@@ -64,11 +173,115 @@
                 }
             ]
         },
+        "News": {
+            "title": "Neuigkeiten & Blogs",
+            "subtitle": "Agenten-Einblicke",
+            "cta": "Alle Artikel ansehen",
+            "category": "Artikel",
+            "Articles": [
+                {
+                    "id": 1,
+                    "title": "APA einführen: Der schnellste Weg zur Unternehmensautomatisierung",
+                    "author": "Dr. Benedikt Sanftl",
+                    "authorImage": "/news-author.jpg",
+                    "date": "23. Okt. 2025",
+                    "image": "/news-01.jpg",
+                    "featured": true
+                },
+                {
+                    "id": 2,
+                    "title": "APA einführen: Der schnellste Weg zur Unternehmensautomatisierung",
+                    "image": "/news-02.png",
+                    "featured": false
+                },
+                {
+                    "id": 3,
+                    "title": "Snapchat, Alexa, ChatGPT, gleichzeitig down: Der AWS-Ausfall im Okt. 2025",
+                    "image": "/news-03.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 4,
+                    "title": "Spezifikationsgetriebene Entwicklung: Bauen, was Sie meinen, nicht was Sie schätzen",
+                    "image": "/news-04.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 5,
+                    "title": "Von großen Sprachmodellen zu selbstlernenden Enterprise KI-Agenten",
+                    "image": "/news-05.jpg",
+                    "featured": false
+                }
+            ]
+        },
         "Solutions": {
             "title": "Lösungen",
             "subtitle": "Bauen Sie heute Ihre KI-Belegschaft auf",
             "description": "Mit Beam AI bauen Sie eine KI-Belegschaft auf, die Aufgaben effizient automatisiert. Setzen Sie intelligente Agenten ein, um Abläufe zu optimieren und die Leistung in Ihrem gesamten Unternehmen zu verbessern!",
             "cta": "Sprechen Sie mit uns"
+        },
+        "Pricing": {
+            "heading_tag": "Preise",
+            "heading_title": "Finden Sie den richtigen Plan für Ihr Wachstum",
+            "heading_subtitle": "Wählen Sie einen Plan, der zu Ihren Bedürfnissen passt. Starten Sie mit einer 14-tägigen kostenlosen Testversion, um alle Funktionen zu testen – keine Kreditkarte erforderlich.",
+
+            "billing": {
+                "monthly": "Monatliche Abrechnung",
+                "yearly": "Jährliche Abrechnung",
+                "save_badge": "17% SPAREN",
+                "billed_monthly": "Wird monatlich abgerechnet.",
+                "billed_annually": "Wird jährlich abgerechnet. Sparen Sie €{savings}.",
+                "per_month": "/Monat",
+                "per_year": "/Jahr"
+            },
+
+            "plans": [
+                {
+                    "name": "Einsteiger",
+                    "description": "Für Einzelpersonen, die mit der KI-Automatisierung beginnen",
+                    "cta": "Vertrieb kontaktieren",
+                    "badge": null,
+                    "features": [
+                        "1 Benutzer inbegriffen",
+                        "5 KI-Agenten",
+                        "2 Mio. KI-Tokens pro Monat",
+                        "800 Konversationen pro Monat",
+                        "Grundlegende KI-Automatisierung",
+                        "150 Wissensdatenbank-Elemente",
+                        "E-Mail-Support"
+                    ]
+                },
+                {
+                    "name": "Professionell",
+                    "description": "Für Teams, die KI-gesteuerte Workflows skalieren",
+                    "cta": "Vertrieb kontaktieren",
+                    "badge": "Am beliebtesten",
+                    "features": [
+                        "3 Benutzer inbegriffen",
+                        "20 KI-Agenten",
+                        "5 Mio. KI-Tokens pro Monat",
+                        "3.000 Konversationen pro Monat",
+                        "Erweiterte KI-Workflows",
+                        "300 Wissensdatenbank-Elemente",
+                        "Priorisierter Support"
+                    ]
+                },
+                {
+                    "name": "Unternehmen",
+                    "description": "Für Unternehmen mit Bedarf an erweiterten KI-Tools",
+                    "cta": "Vertrieb kontaktieren",
+                    "badge": null,
+                    "features": [
+                        "5 Benutzer inbegriffen",
+                        "50 KI-Agenten",
+                        "10 Mio. KI-Tokens pro Monat",
+                        "5.000 Konversationen pro Monat",
+                        "Integrierte KI-Automatisierung",
+                        "1.000 Wissensdatenbank-Elemente",
+                        "Dedizierter Support"
+                    ]
+                }
+            ]
         },
         "FAQ": {
             "title": "Häufig gestellte Fragen",
@@ -121,7 +334,10 @@
                 ],
                 "Resources": [
                     {"title": "Agentische Einblicke", "link": "/resources/insights"},
-                    {"title": "Agentische Automatisierung 101", "link": "/resources/automation-101"},
+                    {
+                        "title": "Agentische Automatisierung 101",
+                        "link": "/resources/automation-101"
+                    },
                     {"title": "Webinare", "link": "/resources/webinars"},
                     {"title": "Changelog", "link": "/resources/changelog"},
                     {"title": "Partnerprogramm", "link": "/resources/partner-program"},
@@ -148,5 +364,189 @@
                 ]
             }
         }
+    },
+
+    "Booking": {
+        "heading_tag": "Veranstaltungen",
+        "heading_title": "Meistern Sie die nächste Generation der Arbeit",
+        "heading_subtitle": "Tauchen Sie tief ein in die praktische Anwendung und erfolgreiche Bereitstellung von selbstlernenden KI-Agenten. Diese Sitzungen richten sich an Führungskräfte und Technologen und bieten unvergleichliche Einblicke in die Einstellung von großen Mengen, die Revolutionierung des Kundendienstes und die Vorbereitung Ihrer Unternehmensdaten für die Zukunft der intelligenten Automatisierung. Wandeln Sie Strategie in messbaren ROI um.",
+
+        "by_prefix": "Von",
+        "register_button": "Jetzt registrieren",
+
+        "day_names": {
+            "Thursday": "Donnerstag",
+            "Friday": "Freitag",
+            "Wednesday": "Mittwoch"
+        },
+
+        "formats": {
+            "Virtual": "Virtuell",
+            "Zoom": "Zoom",
+            "To Be Announced": "Wird noch bekannt gegeben"
+        },
+
+        "tags": {
+            "AI Agents": "KI-Agenten",
+            "Artificial Intelligence": "Künstliche Intelligenz",
+            "Automation": "Automatisierung",
+            "Intelligent automation": "Intelligente Automatisierung",
+            "AI in HR": "KI in HR",
+            "Live demo": "Live-Demo",
+            "Outsourcing AI": "KI-Outsourcing",
+            "ROI": "ROI",
+            "AI in Customer service": "KI im Kundendienst",
+            "German": "Deutsch",
+            "AI use cases": "KI-Anwendungsfälle",
+            "Q/A": "F&A",
+            "UAE": "VAE",
+            "UAE vision 2071": "VAE Vision 2071"
+        },
+
+        "events": [
+            {
+                "date": "30. Okt.",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "Vom Pilot zur Produktion: Skalierung Ihres ersten erfolgreichen KI-Agenten",
+                        "author": "Derya Firat",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Intelligent automation"
+                        ],
+                        "image": "/booking-01.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "31. Okt.",
+                "day": "Friday",
+                "items": [
+                    {
+                        "time": "17:00",
+                        "title": "Massenrekrutierung: Selbstlernende Agenten zur Reduzierung der Einstellungszeit um 60%",
+                        "author": "Sufyaan Jogee",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "AI in HR",
+                            "Automation",
+                            "Live demo",
+                            "Outsourcing AI",
+                            "ROI"
+                        ],
+                        "image": "/booking-02.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "5. Nov.",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "Kundenservice auf Skala: Wie KI-Agenten 10x schneller reagieren als Menschen",
+                        "author": "Derya Firat",
+                        "format": "Zoom",
+                        "tags": [
+                            "AI in Customer service",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "German"
+                        ],
+                        "image": "/booking-03.avif",
+                        "bgColor": "from-purple-900/80 to-purple-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "13. Nov.",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "Sind Ihre Daten bereit für KI? Ein Bewertungsleitfaden",
+                        "author": "Derya Firat",
+                        "format": "To Be Announced",
+                        "tags": ["AI use cases", "Artificial Intelligence", "Automation", "Q/A"],
+                        "image": "/booking-04.avif",
+                        "bgColor": "from-blue-900/80 to-blue-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "19. Nov.",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:00",
+                        "title": "KI-Agenten für VAE-Unternehmen: Transformation des Betriebs im dynamischsten Markt der Welt",
+                        "author": "Mo Bekdache",
+                        "format": "To Be Announced",
+                        "tags": [
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Q/A",
+                            "UAE",
+                            "UAE vision 2071"
+                        ],
+                        "image": "/booking-05.avif",
+                        "bgColor": "from-green-900/80 to-green-800/80"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "Contact": {
+        "title": "Planen Sie Ihre KI-Strategie-Sitzung",
+        "subtitle": "Eine personalisierte Sitzung, um zu sehen, wie Beem Ihre Abläufe automatisieren und die Produktivität mithilfe von KI-Agenten steigern kann.",
+
+        "section_coverage_title": "Was wir gemeinsam behandeln werden:",
+        "coverage_point_1": "Maßgeschneiderter Überblick für Ihre individuellen Bedürfnisse",
+        "coverage_point_2": "Interaktives Treffen zur Beantwortung all Ihrer Anfragen",
+        "coverage_point_3": "ROI-Bewertung für Ihr Geschäftswachstum",
+
+        "section_results_title": "Nachgewiesene Ergebnisse",
+        "stat_1_value": "2X",
+        "stat_1_label": "Steigerung der Teameffizienz",
+        "stat_2_value": "75%",
+        "stat_2_label": "Automatisierte Anfragen",
+        "stat_3_value": "7X",
+        "stat_3_label": "Beschleunigung des Verkaufszyklus",
+        "stat_4_value": "30%",
+        "stat_4_label": "Reduzierung der Support-Arbeitslast",
+
+        "form_error_alert": "Bitte füllen Sie alle Pflichtfelder aus und akzeptieren Sie die Datenschutzbestimmungen.",
+        "input_full_name_label": "Vollständiger Name",
+        "input_full_name_placeholder": "Max Mustermann",
+        "input_mail_label": "Geschäfts-E-Mail (nur geschäftliche E-Mails)",
+        "input_mail_placeholder": "arbeit@firma.de",
+        "input_company_name_label": "Firmenname",
+        "input_company_name_placeholder": "Ihre Firma GmbH",
+        "input_phone_label": "Telefonnummer",
+        "input_phone_placeholder": "+49 30 12345678",
+
+        "input_use_case_label": "Was ist Ihr spezifischer Anwendungsfall?",
+        "input_use_case_placeholder": "Beschreiben Sie Ihre größte Herausforderung bei der Kundenbetreuung oder Verkaufsautomatisierung.",
+
+        "budget_label": "Budget innerhalb von 1000 €/Monat?",
+        "budget_yes": "Ja",
+        "budget_no": "Nein",
+
+        "language_label": "Bevorzugte Sprache",
+        "language_option_english": "Englisch",
+        "language_option_italian": "Italienisch",
+        "language_option_spanish": "Spanisch",
+
+        "submit_button": "Nachricht senden",
+        "required_symbol": "*"
     }
 }

@@ -33,13 +33,7 @@ button {
     }
 }
 
-.logo-carousel-mask {
-    max-width: 80rem;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    position: relative;
-
+.bg-mask {
     mask-image: linear-gradient(to right, transparent 0%, white 10%, white 90%, transparent 100%);
     -webkit-mask-image: linear-gradient(
         to right,
@@ -50,12 +44,20 @@ button {
     );
 }
 
+.logo-carousel-mask {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
 .logo-track {
     display: flex;
     flex-wrap: nowrap;
     width: max-content;
     gap: 2.5rem;
-    animation: scroll 50s linear infinite;
+    animation: scroll 80s linear infinite;
 }
 
 .logo-item {
@@ -63,8 +65,6 @@ button {
     width: auto;
     transition: opacity 500ms ease-in-out;
 }
-
-
 
 .logo-carousel-group:hover .logo-track {
     animation-play-state: paused;

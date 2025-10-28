@@ -2,18 +2,123 @@
     "Home": {
         "metaTitle": "المنصة الرائدة للأتمتة الذكية وعملاء الذكاء الاصطناعي | Beam AI",
         "metaDescription": "أتمتة العمليات باستخدام عملاء الذكاء الاصطناعي القويين ✓ إنشاء ونشر العملاء في دقائق ✓ تكامل سلس في سير العمل ➤ ابدأ الأتمتة اليوم!",
+        "Navbar": {
+            "pages": [
+                {"label": "الرئيسية", "href": "/"},
+                {"label": "الوكلاء", "href": "/#agents"},
+                {"label": "التسعير", "href": "/#pricing"},
+                {"label": "الحجز", "href": "/booking"},
+                {"label": "الاتصال", "href": "/contact"}
+            ],
+            "login": "تسجيل الدخول",
+            "cta": "طلب الوصول"
+        },
         "Hero": {
             "title": "ندوات حصرية عبر الإنترنت - سجل الآن",
             "subtitle": "وظف عملاء ذكاء اصطناعي ذاتية التطور لإدارة عملياتك",
             "description": "تعرف على المنصة الرائدة للذكاء الاصطناعي الذكي لأتمتة العمليات الذكية. تستخدمها شركات Fortune 500 والشركات الناشئة، وتقوم المنصة بأتمتة سير العمل باستخدام منصة متقدمة لعملاء الذكاء الاصطناعي لتقليل التكاليف التشغيلية وخلق الرافعة المالية",
             "cta": "طلب الوصول"
         },
-        "Logos": "تستخدمها شركات Fortune 500 والشركات الناشئة",
+        "Logos": "تستخدمه شركات فورتشن 500 والشركات الناشئة",
         "Agents": {
             "title": "قوالب عملاء الذكاء الاصطناعي",
             "subtitle": "عملاء الذكاء الاصطناعي: قوة عمل موثوقة بأداء على مستوى البشر",
             "description": "يقدم عملاء الذكاء الاصطناعي أتمتة مهام دقيقة وفعالة، تطابق الأداء البشري. إنهم يعملون بشكل مستمر، مما يقلل الأخطاء ويزيد الإنتاجية، مما يسمح للشركات بالتوسع بسرعة دون تكاليف موارد بشرية إضافية.",
-            "cta": "عرض جميع العملاء"
+            "cta": "عرض جميع العملاء",
+            "Carousel": {
+                "workflow_heading": "سير العمل",
+                "categories": {
+                    "GENERAL PURPOSE SOLVERS": "حلول الأغراض العامة",
+                    "RETAIL & E-COMMERCE": "البيع بالتجزئة والتجارة الإلكترونية",
+                    "CONSUMER SERVICE": "خدمة المستهلك",
+                    "ENTERTAINMENT & MEDIA": "الترفيه والإعلام",
+                    "FINANCIAL SERVICES & BANKING": "الخدمات المالية والمصرفية"
+                },
+                "agents": [
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "وكيل الذكاء الاصطناعي لإدخال البيانات",
+                        "workflows": ["جمع البيانات", "تنفيذ إدخال البيانات"],
+                        "image": "/agent-001.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "وكيل الذكاء الاصطناعي لطلب تقديم العروض (RFP)",
+                        "workflows": ["فحص الامتثال", "صياغة وتنسيق المقترحات"],
+                        "image": "/agent-002.png"
+                    },
+                    {
+                        "category": "RETAIL & E-COMMERCE",
+                        "title": "وكيل الذكاء الاصطناعي لمستودعات سلسلة التوريد",
+                        "workflows": ["معالجة الطلبات", "تنفيذ الطلبات"],
+                        "image": "/agent-003.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "وكيل الذكاء الاصطناعي لتجربة العملاء",
+                        "workflows": [
+                            "إدارة برامج الولاء",
+                            "التعامل مع الخصومات الشخصية",
+                            "استرداد ما بعد الأتمتة"
+                        ],
+                        "image": "/agent-004.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "وكيل الذكاء الاصطناعي لخدمة العملاء",
+                        "workflows": [
+                            "المكالمات الواردة",
+                            "التعامل مع حالة الطلب",
+                            "التعامل مع طلبات إرجاع المنتج"
+                        ],
+                        "image": "/agent-005.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "وكيل الذكاء الاصطناعي لفرز البريد الإلكتروني",
+                        "workflows": [
+                            "تصنيف البريد الإلكتروني",
+                            "إعادة توجيه البريد الإلكتروني",
+                            "الرد التلقائي"
+                        ],
+                        "image": "/agent-006.png"
+                    },
+                    {
+                        "category": "ENTERTAINMENT & MEDIA",
+                        "title": "وكيل الذكاء الاصطناعي لتجميع المحتوى",
+                        "workflows": ["جمع المعلومات من مصادر متنوعة"],
+                        "image": "/agent-007.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "وكيل الذكاء الاصطناعي للحسابات المستحقة القبض",
+                        "workflows": ["ترحيل الفواتير"],
+                        "image": "/agent-008.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "وكيل الذكاء الاصطناعي لدعم الفواتير",
+                        "workflows": ["نزاع الفواتير", "دعم الفواتير"],
+                        "image": "/agent-009.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "وكيل الذكاء الاصطناعي لمراقبة الامتثال",
+                        "workflows": [
+                            "فحص الامتثال",
+                            "مراقبة الامتثال",
+                            "التعامل مع طلبات الاشتراك"
+                        ],
+                        "image": "/agent-010.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "وكيل الذكاء الاصطناعي للوجستيات والشحن: توقف عن فقدان الشحنات بسبب التأخيرات الجمركية وأخطاء التوثيق",
+                        "workflows": ["بيانات الشحن"],
+                        "image": "/agent-011.png"
+                    }
+                ]
+            }
         },
         "OS": {
             "title": "نظام تشغيل العملاء",
@@ -64,11 +169,115 @@
                 }
             ]
         },
+        "News": {
+            "title": "الأخبار والمدونات",
+            "subtitle": "رؤى الوكلاء",
+            "cta": "مشاهدة جميع المقالات",
+            "category": "مقالة",
+            "Articles": [
+                {
+                    "id": 1,
+                    "title": "تبني APA: أسرع طريق لأتمتة المؤسسات",
+                    "author": "Dr. Benedikt Sanftl",
+                    "authorImage": "/news-author.jpg",
+                    "date": "23 أكتوبر 2025",
+                    "image": "/news-01.jpg",
+                    "featured": true
+                },
+                {
+                    "id": 2,
+                    "title": "تبني APA: أسرع طريق لأتمتة المؤسسات",
+                    "image": "/news-02.png",
+                    "featured": false
+                },
+                {
+                    "id": 3,
+                    "title": "سناب شات، أليكسا، ChatGPT، تعطلت معًا: انقطاع AWS في أكتوبر 2025",
+                    "image": "/news-03.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 4,
+                    "title": "التطوير الموجه بالمواصفات: قم ببناء ما تقصده، لا ما تخمنه",
+                    "image": "/news-04.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 5,
+                    "title": "من نماذج اللغة الكبيرة إلى وكلاء الذكاء الاصطناعي للمؤسسات ذاتية التعلم",
+                    "image": "/news-05.jpg",
+                    "featured": false
+                }
+            ]
+        },
         "Solutions": {
             "title": "الحلول",
             "subtitle": "ابنِ قوة عملك من الذكاء الاصطناعي اليوم",
             "description": "مع Beam AI، قم ببناء قوة عمل من الذكاء الاصطناعي تعمل على أتمتة المهام بكفاءة. انشر عملاء أذكياء لتبسيط العمليات وتحسين الأداء عبر عملك اليوم!",
             "cta": "تحدث إلينا"
+        },
+        "Pricing": {
+            "heading_tag": "التسعير",
+            "heading_title": "اعثر على الخطة المناسبة لنموك",
+            "heading_subtitle": "اختر الخطة التي تناسب احتياجاتك. ابدأ بتجربة مجانية لمدة 14 يومًا لاختبار جميع الميزات – لا تتطلب بطاقة ائتمانية.",
+
+            "billing": {
+                "monthly": "الفواتير الشهرية",
+                "yearly": "الفواتير السنوية",
+                "save_badge": "وفر 17%",
+                "billed_monthly": "تُصدر الفاتورة شهريًا.",
+                "billed_annually": "تُصدر الفاتورة سنويًا. وفر €{savings}.",
+                "per_month": "/شهر",
+                "per_year": "/سنة"
+            },
+
+            "plans": [
+                {
+                    "name": "المبتدئ",
+                    "description": "للأفراد الذين يبدأون أتمتة الذكاء الاصطناعي",
+                    "cta": "الاتصال بالمبيعات",
+                    "badge": null,
+                    "features": [
+                        "1 مستخدم مُضمن",
+                        "5 وكلاء ذكاء اصطناعي",
+                        "2 مليون رمز مميز للذكاء الاصطناعي شهريًا",
+                        "800 محادثة شهريًا",
+                        "أتمتة أساسية بالذكاء الاصطناعي",
+                        "150 عنصرًا في قاعدة المعرفة",
+                        "دعم عبر البريد الإلكتروني"
+                    ]
+                },
+                {
+                    "name": "المحترف",
+                    "description": "للفرق التي تعمل على توسيع سير عمل الذكاء الاصطناعي",
+                    "cta": "الاتصال بالمبيعات",
+                    "badge": "الأكثر شعبية",
+                    "features": [
+                        "3 مستخدمين مُضمنين",
+                        "20 وكيل ذكاء اصطناعي",
+                        "5 مليون رمز مميز للذكاء الاصطناعي شهريًا",
+                        "3,000 محادثة شهريًا",
+                        "سير عمل متقدم بالذكاء الاصطناعي",
+                        "300 عنصر في قاعدة المعرفة",
+                        "دعم ذو أولوية"
+                    ]
+                },
+                {
+                    "name": "الأعمال",
+                    "description": "للشركات التي تتطلب أدوات متقدمة للذكاء الاصطناعي",
+                    "cta": "الاتصال بالمبيعات",
+                    "badge": null,
+                    "features": [
+                        "5 مستخدمين مُضمنين",
+                        "50 وكيل ذكاء اصطناعي",
+                        "10 مليون رمز مميز للذكاء الاصطناعي شهريًا",
+                        "5,000 محادثة شهريًا",
+                        "أتمتة مدمجة بالذكاء الاصطناعي",
+                        "1,000 عنصر في قاعدة المعرفة",
+                        "دعم مُخصص"
+                    ]
+                }
+            ]
         },
         "FAQ": {
             "title": "الأسئلة الشائعة",
@@ -104,7 +313,10 @@
                     {"title": "عملاء الذكاء الاصطناعي", "link": "/platform/agents"},
                     {"title": "سير العمل الذكي", "link": "/platform/workflows"},
                     {"title": "نظام تشغيل العملاء", "link": "/platform/agentos"},
-                    {"title": "قاعدة البيانات والذاكرة وRAG", "link": "/platform/database-memory-rag"},
+                    {
+                        "title": "قاعدة البيانات والذاكرة وRAG",
+                        "link": "/platform/database-memory-rag"
+                    },
                     {"title": "التكاملات", "link": "/platform/integrations"}
                 ],
                 "Solutions": [
@@ -148,5 +360,189 @@
                 ]
             }
         }
+    },
+
+    "Booking": {
+        "heading_tag": "الفعاليات",
+        "heading_title": "إتقان الجيل القادم من العمل",
+        "heading_subtitle": "تعمق في التطبيق العملي والنشر الناجح لوكلاء الذكاء الاصطناعي ذاتي التعلم. تم تصميم هذه الجلسات لقادة الأعمال والتقنيين، وتقدم رؤى لا مثيل لها في التوظيف بكميات كبيرة، وإحداث ثورة في خدمة العملاء، وإعداد بيانات مؤسستك لمستقبل الأتمتة الذكية. حول الإستراتيجية إلى عائد استثمار قابل للقياس.",
+
+        "by_prefix": "بواسطة",
+        "register_button": "سجل الآن",
+
+        "day_names": {
+            "Thursday": "الخميس",
+            "Friday": "الجمعة",
+            "Wednesday": "الأربعاء"
+        },
+
+        "formats": {
+            "Virtual": "افتراضي",
+            "Zoom": "زوم",
+            "To Be Announced": "سيتم الإعلان عنه لاحقًا"
+        },
+
+        "tags": {
+            "AI Agents": "وكلاء الذكاء الاصطناعي",
+            "Artificial Intelligence": "الذكاء الاصطناعي",
+            "Automation": "الأتمتة",
+            "Intelligent automation": "الأتمتة الذكية",
+            "AI in HR": "الذكاء الاصطناعي في الموارد البشرية",
+            "Live demo": "عرض حي",
+            "Outsourcing AI": "الاستعانة بمصادر خارجية للذكاء الاصطناعي",
+            "ROI": "عائد الاستثمار",
+            "AI in Customer service": "الذكاء الاصطناعي في خدمة العملاء",
+            "German": "ألمانية",
+            "AI use cases": "حالات استخدام الذكاء الاصطناعي",
+            "Q/A": "سؤال وجواب",
+            "UAE": "الإمارات",
+            "UAE vision 2071": "رؤية الإمارات 2071"
+        },
+
+        "events": [
+            {
+                "date": "30 أكتوبر",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "من التجربة الأولية إلى الإنتاج: توسيع نطاق أول وكيل ذكاء اصطناعي ناجح لك",
+                        "author": "Derya Firat",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Intelligent automation"
+                        ],
+                        "image": "/booking-01.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "31 أكتوبر",
+                "day": "Friday",
+                "items": [
+                    {
+                        "time": "17:00",
+                        "title": "التوظيف بكميات كبيرة: وكلاء التعلم الذاتي لتقليل وقت التوظيف بنسبة 60%",
+                        "author": "Sufyaan Jogee",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "AI in HR",
+                            "Automation",
+                            "Live demo",
+                            "Outsourcing AI",
+                            "ROI"
+                        ],
+                        "image": "/booking-02.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "5 نوفمبر",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "خدمة العملاء على نطاق واسع: كيف يستجيب وكلاء الذكاء الاصطناعي أسرع بـ 10 مرات من البشر",
+                        "author": "Derya Firat",
+                        "format": "Zoom",
+                        "tags": [
+                            "AI in Customer service",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "German"
+                        ],
+                        "image": "/booking-03.avif",
+                        "bgColor": "from-purple-900/80 to-purple-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "13 نوفمبر",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "هل بياناتك جاهزة للذكاء الاصطناعي؟ دليل التقييم",
+                        "author": "Derya Firat",
+                        "format": "To Be Announced",
+                        "tags": ["AI use cases", "Artificial Intelligence", "Automation", "Q/A"],
+                        "image": "/booking-04.avif",
+                        "bgColor": "from-blue-900/80 to-blue-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "19 نوفمبر",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:00",
+                        "title": "وكلاء الذكاء الاصطناعي لشركات الإمارات: تحويل العمليات في السوق الأكثر حيوية في العالم",
+                        "author": "Mo Bekdache",
+                        "format": "To Be Announced",
+                        "tags": [
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Q/A",
+                            "UAE",
+                            "UAE vision 2071"
+                        ],
+                        "image": "/booking-05.avif",
+                        "bgColor": "from-green-900/80 to-green-800/80"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "Contact": {
+        "title": "حدد موعدًا لجلسة استراتيجية الذكاء الاصطناعي الخاصة بك",
+        "subtitle": "جلسة شخصية لمعرفة كيف يمكن لـ Beem أتمتة عملياتك وتعزيز الإنتاجية باستخدام وكلاء الذكاء الاصطناعي.",
+
+        "section_coverage_title": "ماذا سنغطي معًا:",
+        "coverage_point_1": "نظرة عامة مخصصة لاحتياجاتك الفريدة",
+        "coverage_point_2": "اجتماع تفاعلي للإجابة على جميع استفساراتك",
+        "coverage_point_3": "تقييم عائد الاستثمار لنمو عملك",
+
+        "section_results_title": "نتائج مثبتة",
+        "stat_1_value": "2X",
+        "stat_1_label": "زيادة كفاءة الفريق",
+        "stat_2_value": "75%",
+        "stat_2_label": "استفسارات مؤتمتة",
+        "stat_3_value": "7X",
+        "stat_3_label": "تسريع دورة المبيعات",
+        "stat_4_value": "30%",
+        "stat_4_label": "تقليل عبء عمل الدعم",
+
+        "form_error_alert": "يرجى ملء جميع الحقول المطلوبة وقبول سياسة الخصوصية.",
+        "input_full_name_label": "الاسم الكامل",
+        "input_full_name_placeholder": "أحمد علي",
+        "input_mail_label": "بريد الشركة (بريد العمل فقط)",
+        "input_mail_placeholder": "work@company.com",
+        "input_company_name_label": "اسم الشركة",
+        "input_company_name_placeholder": "شركتك",
+        "input_phone_label": "رقم الهاتف",
+        "input_phone_placeholder": "+971 50 123 4567",
+
+        "input_use_case_label": "ما هي حالة الاستخدام المحددة لديك؟",
+        "input_use_case_placeholder": "صف التحدي الرئيسي الذي تواجهه في دعم العملاء أو أتمتة المبيعات.",
+
+        "budget_label": "هل الميزانية ضمن 1000 يورو/شهريًا؟",
+        "budget_yes": "نعم",
+        "budget_no": "لا",
+
+        "language_label": "اللغة المفضلة",
+        "language_option_english": "الإنجليزية",
+        "language_option_italian": "الإيطالية",
+        "language_option_spanish": "الإسبانية",
+
+        "submit_button": "إرسال الرسالة",
+        "required_symbol": "*"
     }
 }

@@ -9,7 +9,7 @@ export default async function Solutions({params}: {params: string}) {
     });
 
     return (
-        <section className="gradient-bg ">
+        <section id="solutions" className="gradient-bg ">
             <div className="text-center mb-14 ">
                 <span className="border border-white/15 text-sm py-2 px-3 rounded-lg">
                     {t("title")}

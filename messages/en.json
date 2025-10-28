@@ -2,6 +2,17 @@
     "Home": {
         "metaTitle": "Leading Platform for Agentic Automation & AI Agents | Beam AI",
         "metaDescription": "Automate processes with powerful AI Agents ✓ Build & deploy agents in minutes ✓ Seamlessly integrate into your workflows ➤ Start automating today!",
+        "Navbar": {
+            "pages": [
+                {"label": "Home", "href": "/"},
+                {"label": "Agents", "href": "/#agents"},
+                {"label": "Pricing", "href": "/#pricing"},
+                {"label": "Booking", "href": "/booking"},
+                {"label": "Contact", "href": "/contact"}
+            ],
+            "login": "Login",
+            "cta": "Request Access"
+        },
         "Hero": {
             "title": "Exclusive Webinars - Sign Up",
             "subtitle": "Hire Self-Evolving AI Agents to Run Your Operations",
@@ -13,7 +24,98 @@
             "title": "AI Agents Templates",
             "subtitle": "AI Agents: Reliable Workforce With Human-Level Performance",
             "description": "AI agents deliver precise, efficient task automation, matching human-level performance. They operate continuously, reducing errors and increasing productivity, allowing businesses to scale fast without additional human resource costs.",
-            "cta": "See all agents"
+            "cta": "See all agents",
+
+            "Carousel": {
+                "workflow_heading": "Workflows",
+                "categories": {
+                    "GENERAL PURPOSE SOLVERS": "GENERAL PURPOSE SOLVERS",
+                    "RETAIL & E-COMMERCE": "RETAIL & E-COMMERCE",
+                    "CONSUMER SERVICE": "CONSUMER SERVICE",
+                    "ENTERTAINMENT & MEDIA": "ENTERTAINMENT & MEDIA",
+                    "FINANCIAL SERVICES & BANKING": "FINANCIAL SERVICES & BANKING"
+                },
+                "agents": [
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "Data Entry AI Agent",
+                        "workflows": ["Data Collection", "Data Entry Execution"],
+                        "image": "/agent-001.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "RFP AI Agent",
+                        "workflows": ["Compliance Check", "Proposal Drafting and Formatting"],
+                        "image": "/agent-002.png"
+                    },
+                    {
+                        "category": "RETAIL & E-COMMERCE",
+                        "title": "Supply Chain Warehouse AI Agent",
+                        "workflows": ["Order Processing", "Order Fulfillment"],
+                        "image": "/agent-003.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "Customer Experience AI Agent",
+                        "workflows": [
+                            "Loyalty Program Management",
+                            "Personalized Discount Handling",
+                            "Post Automation Recovery"
+                        ],
+                        "image": "/agent-004.png"
+                    },
+                    {
+                        "category": "CONSUMER SERVICE",
+                        "title": "Customer Service AI Agent",
+                        "workflows": [
+                            "Inbound Calls",
+                            "Order Status Handling",
+                            "Product Return Requests Handling"
+                        ],
+                        "image": "/agent-005.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "Email Triage AI Agent",
+                        "workflows": ["Email Classification", "Email Forwarding", "Auto Reply"],
+                        "image": "/agent-006.png"
+                    },
+                    {
+                        "category": "ENTERTAINMENT & MEDIA",
+                        "title": "Content Aggregation AI Agent",
+                        "workflows": ["Information Collection from Diverse Sources"],
+                        "image": "/agent-007.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "Account Receivable AI Agent",
+                        "workflows": ["Invoice Posting"],
+                        "image": "/agent-008.png"
+                    },
+                    {
+                        "category": "GENERAL PURPOSE SOLVERS",
+                        "title": "Billing Support AI Agent",
+                        "workflows": ["Billing Dispute", "Billing Support"],
+                        "image": "/agent-009.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "Compliance Monitoring AI Agent",
+                        "workflows": [
+                            "Compliance Check",
+                            "Compliance Monitor",
+                            "Subscription Requests Handling"
+                        ],
+                        "image": "/agent-010.png"
+                    },
+                    {
+                        "category": "FINANCIAL SERVICES & BANKING",
+                        "title": "Logistics & Shipping AI Agent: Stop losing shipments to customs delays and documentation errors",
+                        "workflows": ["Shipping Data"],
+                        "image": "/agent-011.png"
+                    }
+                ]
+            }
         },
         "OS": {
             "title": "Agent OS",
@@ -64,11 +166,115 @@
                 }
             ]
         },
+        "News": {
+            "title": " News & Blogs",
+            "subtitle": "Agentic Insights",
+            "cta": "See all articles",
+            "category": "Article",
+            "Articles": [
+                {
+                    "id": 1,
+                    "title": "Adopting APA: The Fastest Route to Enterprise Automation",
+                    "author": "Dr. Benedikt Sanftl",
+                    "authorImage": "/news-author.jpg",
+                    "date": "Oct 23, 2025",
+                    "image": "/news-01.jpg",
+                    "featured": true
+                },
+                {
+                    "id": 2,
+                    "title": "Adopting APA: The Fastest Route to Enterprise Automation",
+                    "image": "/news-02.png",
+                    "featured": false
+                },
+                {
+                    "id": 3,
+                    "title": "Snapchat, Alexa, ChatGPT, Down Together: The Oct 2025 AWS Outage",
+                    "image": "/news-03.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 4,
+                    "title": "Spec Driven Development: Build what you mean, not what you guess",
+                    "image": "/news-04.jpg",
+                    "featured": false
+                },
+                {
+                    "id": 5,
+                    "title": "From Large Language Models to Self-Learning Enterprise AI Agents",
+                    "image": "/news-05.jpg",
+                    "featured": false
+                }
+            ]
+        },
         "Solutions": {
             "title": "Solutions",
             "subtitle": "Build Your AI Workforce Today",
             "description": "With Beam AI, build an AI workforce that automates tasks efficiently. Deploy intelligent agents to streamline operations and improve performance across your business today!",
             "cta": "Speak to us"
+        },
+        "Pricing": {
+            "heading_tag": "Pricing",
+            "heading_title": "Find the right plan for your growth",
+            "heading_subtitle": "Choose a plan that fits your needs. Start with a 14-day trial to test all features for free – No credit card required.",
+
+            "billing": {
+                "monthly": "Monthly Billing",
+                "yearly": "Yearly Billing",
+                "save_badge": "SAVE 17%",
+                "billed_monthly": "Billed monthly.",
+                "billed_annually": "Billed annually. Save €{savings}.",
+                "per_month": "/mo",
+                "per_year": "/year"
+            },
+
+            "plans": [
+                {
+                    "name": "Starter",
+                    "description": "For individuals starting AI automation",
+                    "cta": "Contact Sales",
+                    "badge": null,
+                    "features": [
+                        "1 user included",
+                        "5 AI Agents",
+                        "2M AI Tokens per month",
+                        "800 conversations per month",
+                        "Basic AI automation",
+                        "150 Knowledge Base items",
+                        "Email support"
+                    ]
+                },
+                {
+                    "name": "Professional",
+                    "description": "For teams scaling AI-powered workflows",
+                    "cta": "Contact Sales",
+                    "badge": "Most Popular",
+                    "features": [
+                        "3 users included",
+                        "20 AI Agents",
+                        "5M AI Tokens per month",
+                        "3,000 conversations per month",
+                        "Advanced AI workflows",
+                        "300 Knowledge Base items",
+                        "Priority support"
+                    ]
+                },
+                {
+                    "name": "Business",
+                    "description": "For businesses requiring advanced AI tools",
+                    "cta": "Contact Sales",
+                    "badge": null,
+                    "features": [
+                        "5 users included",
+                        "50 AI Agents",
+                        "10M AI Tokens per month",
+                        "5,000 conversations per month",
+                        "Built-in AI automation",
+                        "1,000 Knowledge Base items",
+                        "Dedicated support"
+                    ]
+                }
+            ]
         },
         "FAQ": {
             "title": "FAQ",
@@ -149,5 +355,187 @@
                 ]
             }
         }
+    },
+    "Booking": {
+        "heading_tag": "Events",
+        "heading_title": "Mastering the Next Generation of Work",
+        "heading_subtitle": "Dive deep into the practical application and successful deployment of self-learning AI agents. These sessions are curated for business leaders and technologists, offering unparalleled insights into high-volume hiring, revolutionizing customer service, and preparing your enterprise data for the future of intelligent automation. Transform strategy into measurable ROI.",
+
+        "by_prefix": "By",
+        "register_button": "Register Now",
+
+        "day_names": {
+            "Thursday": "Thursday",
+            "Friday": "Friday",
+            "Wednesday": "Wednesday"
+        },
+
+        "formats": {
+            "Virtual": "Virtual",
+            "Zoom": "Zoom",
+            "To Be Announced": "To Be Announced"
+        },
+
+        "tags": {
+            "AI Agents": "AI Agents",
+            "Artificial Intelligence": "Artificial Intelligence",
+            "Automation": "Automation",
+            "Intelligent automation": "Intelligent automation",
+            "AI in HR": "AI in HR",
+            "Live demo": "Live demo",
+            "Outsourcing AI": "Outsourcing AI",
+            "ROI": "ROI",
+            "AI in Customer service": "AI in Customer service",
+            "German": "German",
+            "AI use cases": "AI use cases",
+            "Q/A": "Q/A",
+            "UAE": "UAE",
+            "UAE vision 2071": "UAE vision 2071"
+        },
+
+        "events": [
+            {
+                "date": "30 Oct",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "From Pilot to Production: Scaling Your First Successful AI Agent",
+                        "author": "Derya Firat",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Intelligent automation"
+                        ],
+                        "image": "/booking-01.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "31 Oct",
+                "day": "Friday",
+                "items": [
+                    {
+                        "time": "17:00",
+                        "title": "High-Volume Hiring: Self Learning Agents to Reduce Time to Hire by 60%",
+                        "author": "Sufyaan Jogee",
+                        "format": "Virtual",
+                        "tags": [
+                            "AI Agents",
+                            "AI in HR",
+                            "Automation",
+                            "Live demo",
+                            "Outsourcing AI",
+                            "ROI"
+                        ],
+                        "image": "/booking-02.avif",
+                        "bgColor": "from-teal-900/80 to-teal-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "5 Nov",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "Customer Service at Scale: Wie KI-Agenten 10x schneller reagieren als Menschen",
+                        "author": "Derya Firat",
+                        "format": "Zoom",
+                        "tags": [
+                            "AI in Customer service",
+                            "Artificial Intelligence",
+                            "Automation",
+                            "German"
+                        ],
+                        "image": "/booking-03.avif",
+                        "bgColor": "from-purple-900/80 to-purple-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "13 Nov",
+                "day": "Thursday",
+                "items": [
+                    {
+                        "time": "20:30",
+                        "title": "Is Your Data Ready for AI? Assessment Guide",
+                        "author": "Derya Firat",
+                        "format": "To Be Announced",
+                        "tags": ["AI use cases", "Artificial Intelligence", "Automation", "Q/A"],
+                        "image": "/booking-04.avif",
+                        "bgColor": "from-blue-900/80 to-blue-800/80"
+                    }
+                ]
+            },
+            {
+                "date": "19 Nov",
+                "day": "Wednesday",
+                "items": [
+                    {
+                        "time": "20:00",
+                        "title": "AI Agents for UAE Businesses: Transforming Operations in the World's Most Dynamic Market",
+                        "author": "Mo Bekdache",
+                        "format": "To Be Announced",
+                        "tags": [
+                            "Artificial Intelligence",
+                            "Automation",
+                            "Q/A",
+                            "UAE",
+                            "UAE vision 2071"
+                        ],
+                        "image": "/booking-05.avif",
+                        "bgColor": "from-green-900/80 to-green-800/80"
+                    }
+                ]
+            }
+        ]
+    },
+    "Contact": {
+        "title": "Schedule Your AI Strategy Session",
+        "subtitle": "A personalized session to see how Beem can automate your operations and enhance productivity using AI agents.",
+
+        "section_coverage_title": "What we will cover together:",
+        "coverage_point_1": "Tailored overview for your unique needs",
+        "coverage_point_2": "Interactive meeting to answer all your inquiries",
+        "coverage_point_3": "ROI evaluation for your business growth",
+
+        "section_results_title": "Proven Results",
+        "stat_1_value": "2X",
+        "stat_1_label": "Team Efficiency Increase",
+        "stat_2_value": "75%",
+        "stat_2_label": "Inquiries Automated",
+        "stat_3_value": "7X",
+        "stat_3_label": "Sales Cycle Acceleration",
+        "stat_4_value": "30%",
+        "stat_4_label": "Support Workload Reduction",
+
+        "form_error_alert": "Please fill out all required fields and accept the privacy policy.",
+        "input_full_name_label": "Full Name",
+        "input_full_name_placeholder": "John Doe",
+        "input_mail_label": "Company Mail (Work emails only)",
+        "input_mail_placeholder": "work@company.com",
+        "input_company_name_label": "Company Name",
+        "input_company_name_placeholder": "Your Company Inc.",
+        "input_phone_label": "Phone Number",
+        "input_phone_placeholder": "+1 (555) 123-4567",
+
+        "input_use_case_label": "What's your specific use case?",
+        "input_use_case_placeholder": "Describe your key challenge in customer support or sales automation.",
+
+        "budget_label": "Budget within €1000/month?",
+        "budget_yes": "Yes",
+        "budget_no": "No",
+
+        "language_label": "Preferred language",
+        "language_option_english": "English",
+        "language_option_italian": "Italian",
+        "language_option_spanish": "Spanish",
+
+        "submit_button": "Send Message",
+        "required_symbol": "*"
     }
 }

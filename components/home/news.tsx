@@ -1,47 +1,24 @@
 "use client";
 import {motion} from "framer-motion";
+import {useTranslations} from "next-intl";
 import Image from "next/image";
 
-const articles = [
-    {
-        id: 1,
-        title: "Adopting APA: The Fastest Route to Enterprise Automation",
-        author: "Dr. Benedikt Sanftl",
-        authorImage: "/news-author.jpg",
-        date: "Oct 23, 2025",
-        image: "/news-01.jpg",
-        featured: true,
-    },
-    {
-        id: 2,
-        title: "Adopting APA: The Fastest Route to Enterprise Automation",
-        image: "/news-02.png",
-        featured: false,
-    },
-    {
-        id: 3,
-        title: "Snapchat, Alexa, ChatGPT, Down Together: The Oct 2025 AWS Outage",
-        image: "/news-03.jpg",
-        featured: false,
-    },
-    {
-        id: 4,
-        title: "Spec Driven Development: Build what you mean, not what you guess",
-        image: "/news-04.jpg",
-        featured: false,
-    },
-    {
-        id: 5,
-        title: "From Large Language Models to Self-Learning Enterprise AI Agents",
-        image: "/news-05.jpg",
-        featured: false,
-    },
-];
+export interface NewsArticle {
+    id: number;
+    title: string;
+    author?: string;
+    authorImage?: string;
+    date?: string;
+    image: string;
+    featured: boolean;
+}
 
 export default function AgenticInsights() {
+    const t = useTranslations("Home.News");
+    const articles = t.raw("Articles") as NewsArticle[];
+
     const featuredArticle = articles[0];
     const sideArticles = articles.slice(1);
-
     return (
         <section className="max-container">
             {/* Header */}
@@ -52,12 +29,10 @@ export default function AgenticInsights() {
                 transition={{duration: 0.6}}
             >
                 <span className="border border-white/15 text-sm py-2 px-3 rounded-lg">
-                    {/* {t("title")} */}
-                    News & Blogs
+                    {t("title")}
                 </span>
                 <h2 className="text-4xl md:text-5xl md:leading-14 mt-5  font-medium ">
-                    {/* {t("subtitle")} */}
-                    Agentic Insights
+                    {t("subtitle")}
                 </h2>
             </motion.div>
 
@@ -81,7 +56,7 @@ export default function AgenticInsights() {
                         />
                         <div className="absolute top-6 left-6">
                             <span className="px-3 py-1.5 text-xs font-medium bg-white/10 backdrop-blur-md rounded-lg border border-white/20">
-                                ARTICLE
+                                {t("category")}
                             </span>
                         </div>
 
@@ -127,7 +102,7 @@ export default function AgenticInsights() {
                             </div>
                             <div className="flex flex-col justify-center">
                                 <span className="text-sm text-white/40 font-medium mb-2">
-                                    ARTICLE
+                                    {t("category")}
                                 </span>
                                 <h4 className="text-lg font-semibold leading-snug group-hover:text-purple-300 transition-colors">
                                     {article.title}
@@ -146,8 +121,7 @@ export default function AgenticInsights() {
                 className="flex justify-center"
             >
                 <span className="border  border-white/15 text-sm py-2 px-3 rounded-lg">
-                    {/* {t("title")} */}
-                    See all articles
+                    {t("cta")}
                 </span>
             </motion.div>
         </section>

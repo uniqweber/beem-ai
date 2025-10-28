@@ -1,5 +1,4 @@
 import {NextIntlClientProvider} from "next-intl";
-import {getMessages} from "next-intl/server";
 import {Figtree} from "next/font/google";
 import {notFound} from "next/navigation";
 
@@ -34,7 +33,8 @@ export default async function LocaleLayout({
     }
 
     // Load translations
-    const messages = await getMessages();
+    // const messages = await getMessages();
+    const messages = (await import(`../../messages/${locale}.json`)).default;
 
     // Arabic requires RTL (right-to-left) text direction
     const dir = locale === "ar" ? "rtl" : "ltr";

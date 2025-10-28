@@ -35,14 +35,14 @@ export default async function Home({params}: Props) {
     return (
         <main className="space-y-40 mb-40">
             <Hero params={locale} />
-            <Logos />
+            <Logos params={locale} />
             <Agents params={locale} />
             <OS params={locale} />
             <Benefits params={locale} />
             <Customers params={locale} />
             <AgenticInsights />
             <Solutions params={locale} />
-            <PricingSection/>
+            <PricingSection params={locale} />
             <FAQ params={locale} />
         </main>
     );
