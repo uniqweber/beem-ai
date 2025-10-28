@@ -29,7 +29,14 @@ export default function Navbar({locale}: {locale: string}) {
         <div className="fixed top-0 left-0 right-0 bg-black/10 backdrop-blur-lg z-50 text-white">
             <div className="max-container h-20 flex font-medium items-center justify-between px-4 sm:px-6 lg:px-8">
                 <Link href={`/`} locale={locale}>
-                    <Image src={"/logo.png"} alt="Logo" width={90} height={100} priority />
+                    <Image
+                        src={"/logo.png"}
+                        alt="Logo"
+                        width={90}
+                        height={100}
+                        priority
+                        className="w-auto h-5"
+                    />
                 </Link>
 
                 {/* Desktop Navigation Links (Hidden on small screens) */}
@@ -45,12 +52,20 @@ export default function Navbar({locale}: {locale: string}) {
 
                 {/* Desktop Buttons (Hidden on small screens) */}
                 <div className="hidden lg:flex items-center gap-3">
-                    <button className="h-9 text-sm px-4 rounded-lg border border-white/15 hover:bg-white/10 transition-colors">
+                    <Link
+                        href="/#"
+                        locale={locale}
+                        className="h-9 text-sm px-4 flex items-center rounded-lg border border-white/15 hover:bg-white/10 transition-colors"
+                    >
                         {t("login")}
-                    </button>
-                    <button className="h-9 text-sm px-4 rounded-lg bg-primary hover:bg-primary/90 transition-colors">
+                    </Link>
+                    <Link
+                        href="/contact"
+                        locale={locale}
+                        className="h-9 text-sm px-4 flex items-center rounded-lg bg-primary hover:bg-primary/90 transition-colors"
+                    >
                         {t("cta")}
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Mobile Menu Toggle Button (Visible on small screens) */}
@@ -90,13 +105,20 @@ export default function Navbar({locale}: {locale: string}) {
                 </ul>
 
                 {/* Mobile Buttons */}
-                <div className="flex flex-col p-4 space-y-3 border-t border-zinc-800">
-                    <button className="w-full h-10 text-base font-semibold rounded-lg border border-white/15 hover:bg-white/10 transition-colors">
+                <div
+                    onClick={() => setIsMenuOpen(false)}
+                    className="flex flex-col p-4 space-y-3 border-t border-zinc-800"
+                >
+                    <Link href="/#" locale={locale} className="w-full h-10 flex items-center justify-center text-sm font-semibold rounded-lg border border-white/15 hover:bg-white/10 transition-colors">
                         {t("login")}
-                    </button>
-                    <button className="w-full h-10 text-base font-semibold rounded-lg bg-primary hover:bg-primary/90 transition-colors">
+                    </Link>
+                    <Link
+                        href="/contact"
+                        locale={locale}
+                        className="h-9 text-sm px-4 flex justify-center items-center rounded-lg bg-primary hover:bg-primary/90 transition-colors"
+                    >
                         {t("cta")}
-                    </button>
+                    </Link>
                 </div>
             </motion.div>
         </div>

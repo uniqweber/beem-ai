@@ -1,4 +1,5 @@
 // components/home/Customers.tsx
+import {Link} from "@/i18n/navigation";
 import {ArrowRight} from "lucide-react";
 import {getTranslations} from "next-intl/server";
 import Image from "next/image";
@@ -14,6 +15,7 @@ export default async function Customers({params}: {params: string}) {
         title: string;
         cta: string;
         img: string;
+        href: string;
     }>;
 
     return (
@@ -28,13 +30,17 @@ export default async function Customers({params}: {params: string}) {
                 <p className="max-w-2xl text-white/35 mx-auto text-[17px] mb-5">
                     {t("description")}
                 </p>
-                <button className="bg-primary h-11 hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl  ">
+                <Link
+                    href="#"
+                    locale={params}
+                    className="bg-primary h-11 inline-flex items-center justify-center hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl"
+                >
                     {t("cta")}
-                </button>
+                </Link>
             </div>
             <div className="mt-20 flex gap-6 md:gap-10">
                 {caseStudies.map((item, idx: number) => (
-                    <div key={idx} className="w-80 md:w-[350px] shrink-0">
+                    <Link href={item.href} locale={params} key={idx} className="w-80 md:w-[350px] block shrink-0">
                         <Image
                             src={item.img}
                             alt={item.title}
@@ -47,7 +53,7 @@ export default async function Customers({params}: {params: string}) {
                         <button className="flex items-center gap-2 text-white/35 font-medium text-[17px]">
                             {item.cta} <ArrowRight size={20} />{" "}
                         </button>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </section>

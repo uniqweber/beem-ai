@@ -6,6 +6,7 @@ import Image from "next/image";
 import {Autoplay, Navigation} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 
+import {Link} from "@/i18n/navigation";
 import "swiper/css/navigation";
 import "swiper/swiper.css";
 
@@ -14,9 +15,10 @@ interface AIAgentData {
     title: string;
     workflows: string[];
     image: string;
+    href: string;
 }
 
-export default function AgentCarousel() {
+export default function AgentCarousel({locale}: {locale: string}) {
     const t = useTranslations("Home.Agents.Carousel");
 
     const aiAgentsData = t.raw("agents") as AIAgentData[];
@@ -51,40 +53,42 @@ export default function AgentCarousel() {
             >
                 {aiAgentsData.map((agent, index) => (
                     <SwiperSlide key={index} className="h-full">
-                        <div className="w-full relative h-full border rounded-2xl overflow-hidden border-white/15 group cursor-pointer">
-                            <div className=" relative h-60 overflow-hidden">
-                                <Image
-                                    src={agent.image}
-                                    alt={agent.title}
-                                    width={400}
-                                    height={400}
-                                    className="w-full h-full object-cover object-bottom group-hover:scale-130 duration-500 ease-in-out group-hover:origin-bottom-left scale-115 "
-                                />
-                                <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
-                            </div>
-
-                            <div className="p-5 min-h-80 -mt-24 relative z-20 space-y-2.5 bg-transparent ">
-                                <div className="w-max px-2.5 py-1.5 text-xs font-semibold tracking-wide uppercase bg-zinc-700/70 text-white/70 backdrop-blur-md rounded-md ">
-                                    {translateCategory(agent.category)}
+                        <Link href={agent.href} locale={locale} className="block size-full">
+                            <div className="w-full relative h-full border rounded-2xl overflow-hidden border-white/15 group cursor-pointer">
+                                <div className=" relative h-60 overflow-hidden">
+                                    <Image
+                                        src={agent.image}
+                                        alt={agent.title}
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover object-bottom group-hover:scale-130 duration-500 ease-in-out group-hover:origin-bottom-left scale-115 "
+                                    />
+                                    <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
                                 </div>
-                                <h3 className="text-xl font-bold ">{agent.title}</h3>
-                                <p className="text-[13px] uppercase font-semibold tracking-wider text-white/60">
-                                    {t("workflow_heading")}
-                                </p>
 
-                                <ul className="space-y-1.5 ">
-                                    {agent.workflows.map((flow, index) => (
-                                        <li
-                                            key={index}
-                                            className="bg-white/5 px-3 py-3 rounded-lg text-sm text-white/60 "
-                                        >
-                                            {flow}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <div className="p-5 min-h-80 -mt-24 relative z-20 space-y-2.5 bg-transparent ">
+                                    <div className="w-max px-2.5 py-1.5 text-xs font-semibold tracking-wide uppercase bg-zinc-700/70 text-white/70 backdrop-blur-md rounded-md ">
+                                        {translateCategory(agent.category)}
+                                    </div>
+                                    <h3 className="text-xl font-bold ">{agent.title}</h3>
+                                    <p className="text-[13px] uppercase font-semibold tracking-wider text-white/60">
+                                        {t("workflow_heading")}
+                                    </p>
+
+                                    <ul className="space-y-1.5 ">
+                                        {agent.workflows.map((flow, index) => (
+                                            <li
+                                                key={index}
+                                                className="bg-white/5 px-3 py-3 rounded-lg text-sm text-white/60 "
+                                            >
+                                                {flow}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div className="absolute bg-zinc-900 inset-0 opacity-0 group-hover:opacity-50 duration-500 ease-in-out "></div>
                             </div>
-                            <div className="absolute bg-zinc-900 inset-0 opacity-0 group-hover:opacity-50 duration-500 ease-in-out "></div>
-                        </div>
+                        </Link>
                     </SwiperSlide>
                 ))}
             </Swiper>

@@ -40,7 +40,8 @@
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "KI-Agent für Dateneingabe",
                         "workflows": ["Datenerfassung", "Ausführung der Dateneingabe"],
-                        "image": "/agent-001.png"
+                        "image": "/agent-001.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
@@ -49,13 +50,15 @@
                             "Konformitätsprüfung",
                             "Entwurf und Formatierung von Vorschlägen"
                         ],
-                        "image": "/agent-002.png"
+                        "image": "/agent-002.png",
+                        "href": "#"
                     },
                     {
                         "category": "RETAIL & E-COMMERCE",
                         "title": "KI-Agent für Lieferkettenlager",
                         "workflows": ["Auftragsbearbeitung", "Auftragserfüllung"],
-                        "image": "/agent-003.png"
+                        "image": "/agent-003.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -65,7 +68,8 @@
                             "Personalisierte Rabattabwicklung",
                             "Wiederherstellung nach Automatisierung"
                         ],
-                        "image": "/agent-004.png"
+                        "image": "/agent-004.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -75,7 +79,8 @@
                             "Bearbeitung des Bestellstatus",
                             "Bearbeitung von Produktrückgabeanfragen"
                         ],
-                        "image": "/agent-005.png"
+                        "image": "/agent-005.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
@@ -85,25 +90,29 @@
                             "E-Mail-Weiterleitung",
                             "Automatische Antwort"
                         ],
-                        "image": "/agent-006.png"
+                        "image": "/agent-006.png",
+                        "href": "#"
                     },
                     {
                         "category": "ENTERTAINMENT & MEDIA",
                         "title": "KI-Agent für Inhaltsaggregation",
                         "workflows": ["Informationssammlung aus verschiedenen Quellen"],
-                        "image": "/agent-007.png"
+                        "image": "/agent-007.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "KI-Agent für Debitorenbuchhaltung",
                         "workflows": ["Rechnungsbuchung"],
-                        "image": "/agent-008.png"
+                        "image": "/agent-008.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "KI-Agent für Abrechnungsunterstützung",
                         "workflows": ["Abrechnungsstreitigkeiten", "Abrechnungsunterstützung"],
-                        "image": "/agent-009.png"
+                        "image": "/agent-009.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
@@ -113,13 +122,15 @@
                             "Compliance-Überwachung",
                             "Bearbeitung von Abonnementanfragen"
                         ],
-                        "image": "/agent-010.png"
+                        "image": "/agent-010.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "KI-Agent für Logistik & Versand: Schluss mit verlorenen Sendungen durch Zollverzögerungen und Dokumentationsfehler",
                         "workflows": ["Versanddaten"],
-                        "image": "/agent-011.png"
+                        "image": "/agent-011.png",
+                        "href": "#"
                     }
                 ]
             }
@@ -145,31 +156,36 @@
                     "img": "/case-studies-01.avif",
                     "category": "Immobilien & Real Estate",
                     "title": "Führende europäische Neo-Bank löst Adressverifizierung mit Beam KI-Agenten",
-                    "cta": "Fallstudie lesen"
+                    "cta": "Fallstudie lesen",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-02.avif",
                     "category": "Finanzdienstleistungen & Banking",
                     "title": "Optimierung der Angebotserstellung mit KI-Automatisierung",
-                    "cta": "Fallstudie lesen"
+                    "cta": "Fallstudie lesen",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-03.avif",
                     "category": "Lieferkette & Logistik",
                     "title": "Transformation des Auftragsverwaltung mit KI-Agenten für einen führenden B2B-Bäckereilieferanten",
-                    "cta": "Fallstudie lesen"
+                    "cta": "Fallstudie lesen",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-04.avif",
                     "category": "Einzelhandel & E-Commerce",
                     "title": "Automatisierung des Kontaktmanagements über 5 Systeme mit agentischer KI",
-                    "cta": "Fallstudie lesen"
+                    "cta": "Fallstudie lesen",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-05.avif",
                     "category": "BPO",
                     "title": "Wie ein globales Chemieunternehmen sein BPO durch KI-Agenten ersetzte und die Kosten um 63% senkte",
-                    "cta": "Fallstudie lesen"
+                    "cta": "Fallstudie lesen",
+                    "href": "#"
                 }
             ]
         },
@@ -186,31 +202,36 @@
                     "authorImage": "/news-author.jpg",
                     "date": "23. Okt. 2025",
                     "image": "/news-01.jpg",
-                    "featured": true
+                    "featured": true,
+                    "href": "#"
                 },
                 {
                     "id": 2,
                     "title": "APA einführen: Der schnellste Weg zur Unternehmensautomatisierung",
                     "image": "/news-02.png",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 3,
                     "title": "Snapchat, Alexa, ChatGPT, gleichzeitig down: Der AWS-Ausfall im Okt. 2025",
                     "image": "/news-03.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 4,
                     "title": "Spezifikationsgetriebene Entwicklung: Bauen, was Sie meinen, nicht was Sie schätzen",
                     "image": "/news-04.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 5,
                     "title": "Von großen Sprachmodellen zu selbstlernenden Enterprise KI-Agenten",
                     "image": "/news-05.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 }
             ]
         },
@@ -312,55 +333,55 @@
             "copyright": "© Beam AI. Alle Rechte vorbehalten 2025",
             "Navigation": {
                 "Platform": [
-                    {"title": "KI-Agentenplattform", "link": "/platform/agent-platform"},
-                    {"title": "KI-Agenten-Tools", "link": "/platform/agent-tools"},
-                    {"title": "KI-Agenten", "link": "/platform/agents"},
-                    {"title": "Agentische Workflows", "link": "/platform/workflows"},
-                    {"title": "AgentOS", "link": "/platform/agentos"},
-                    {"title": "Datenbank, Speicher & Rag", "link": "/platform/database-memory-rag"},
-                    {"title": "Integrationen", "link": "/platform/integrations"}
+                    {"title": "KI-Agentenplattform", "link": "#"},
+                    {"title": "KI-Agenten-Tools", "link": "#"},
+                    {"title": "KI-Agenten", "link": "#"},
+                    {"title": "Agentische Workflows", "link": "#"},
+                    {"title": "AgentOS", "link": "#"},
+                    {"title": "Datenbank, Speicher & Rag", "link": "#"},
+                    {"title": "Integrationen", "link": "#s"}
                 ],
                 "Solutions": [
-                    {"title": "BPO", "link": "/solutions/bpo"},
-                    {"title": "Maßgeschneiderte KI-Lösungen", "link": "/solutions/custom-ai"},
-                    {"title": "Kundenservice", "link": "/solutions/customer-service"},
-                    {"title": "Inkasso", "link": "/solutions/debt-collection"},
-                    {"title": "Finanzdienstleistungen", "link": "/solutions/financial-services"},
-                    {"title": "Gesundheitswesen", "link": "/solutions/healthcare"},
-                    {"title": "Versicherung", "link": "/solutions/insurance"},
-                    {"title": "Personalvermittlung & RPO", "link": "/solutions/staffing-rpo"},
-                    {"title": "Talentakquise", "link": "/solutions/talent-acquisition"},
-                    {"title": "Immobilienverwaltung", "link": "/solutions/property-management"}
+                    {"title": "BPO", "link": "#"},
+                    {"title": "Maßgeschneiderte KI-Lösungen", "link": "#"},
+                    {"title": "Kundenservice", "link": "#"},
+                    {"title": "Inkasso", "link": "#"},
+                    {"title": "Finanzdienstleistungen", "link": "#"},
+                    {"title": "Gesundheitswesen", "link": "#"},
+                    {"title": "Versicherung", "link": "#"},
+                    {"title": "Personalvermittlung & RPO", "link": "#"},
+                    {"title": "Talentakquise", "link": "#"},
+                    {"title": "Immobilienverwaltung", "link": "#t"}
                 ],
                 "Resources": [
-                    {"title": "Agentische Einblicke", "link": "/resources/insights"},
+                    {"title": "Agentische Einblicke", "link": "#"},
                     {
                         "title": "Agentische Automatisierung 101",
-                        "link": "/resources/automation-101"
+                        "link": "#"
                     },
-                    {"title": "Webinare", "link": "/resources/webinars"},
-                    {"title": "Changelog", "link": "/resources/changelog"},
-                    {"title": "Partnerprogramm", "link": "/resources/partner-program"},
-                    {"title": "Beam Academy", "link": "/resources/beam-academy"},
-                    {"title": "Anwendungsfälle", "link": "/resources/use-cases"},
-                    {"title": "Fallstudien", "link": "/resources/case-studies"},
-                    {"title": "Kunden", "link": "/resources/customers"},
-                    {"title": "KI-Native", "link": "/resources/ai-native"}
+                    {"title": "Webinare", "link": "#"},
+                    {"title": "Changelog", "link": "#"},
+                    {"title": "Partnerprogramm", "link": "#"},
+                    {"title": "Beam Academy", "link": "#"},
+                    {"title": "Anwendungsfälle", "link": "#"},
+                    {"title": "Fallstudien", "link": "#"},
+                    {"title": "Kunden", "link": "#"},
+                    {"title": "KI-Native", "link": "#e"}
                 ],
                 "Company": [
-                    {"title": "Über uns", "link": "/company/about"},
-                    {"title": "Karriere", "link": "/company/career"},
-                    {"title": "Kontakt", "link": "/company/contact"},
-                    {"title": "Demo anfordern", "link": "/company/request-demo"},
-                    {"title": "Vertrauenscenter", "link": "/company/trust-center"}
+                    {"title": "Über uns", "link": "#"},
+                    {"title": "Karriere", "link": "#"},
+                    {"title": "Kontakt", "link": "#"},
+                    {"title": "Demo anfordern", "link": "#"},
+                    {"title": "Vertrauenscenter", "link": "#"}
                 ],
                 "Legal": [
-                    {"title": "Rechtliches", "link": "/company/legal"},
-                    {"title": "Datenschutzrichtlinie", "link": "/company/privacy-policy"},
-                    {"title": "Sicherheit", "link": "/company/security"},
-                    {"title": "Datenschutz", "link": "/company/data-protection"},
-                    {"title": "Nutzungsbedingungen", "link": "/company/terms-of-use"},
-                    {"title": "Impressum", "link": "/company/imprint"}
+                    {"title": "Rechtliches", "link": "#"},
+                    {"title": "Datenschutzrichtlinie", "link": "#"},
+                    {"title": "Sicherheit", "link": "#"},
+                    {"title": "Datenschutz", "link": "#"},
+                    {"title": "Nutzungsbedingungen", "link": "#"},
+                    {"title": "Impressum", "link": "#t"}
                 ]
             }
         }

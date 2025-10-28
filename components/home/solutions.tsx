@@ -1,4 +1,5 @@
 // components/home/Solutions.tsx
+import {Link} from "@/i18n/navigation";
 import {getTranslations} from "next-intl/server";
 import Image from "next/image";
 
@@ -20,9 +21,13 @@ export default async function Solutions({params}: {params: string}) {
                 <p className="max-w-xl text-white/35 mx-auto text-[17px] mb-5">
                     {t("description")}
                 </p>
-                <button className="bg-primary h-11 hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl  ">
+                <Link
+                    href="/contact"
+                    locale={params}
+                    className="bg-primary h-11 inline-flex items-center justify-center hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl"
+                >
                     {t("cta")}
-                </button>
+                </Link>
             </div>
             <div className="max-w-6xl  mx-auto">
                 <Image src="/solutions.avif" alt="OS" width={6000} height={6000} className="" />

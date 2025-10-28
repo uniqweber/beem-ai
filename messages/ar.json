@@ -39,19 +39,22 @@
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "وكيل الذكاء الاصطناعي لإدخال البيانات",
                         "workflows": ["جمع البيانات", "تنفيذ إدخال البيانات"],
-                        "image": "/agent-001.png"
+                        "image": "/agent-001.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "وكيل الذكاء الاصطناعي لطلب تقديم العروض (RFP)",
                         "workflows": ["فحص الامتثال", "صياغة وتنسيق المقترحات"],
-                        "image": "/agent-002.png"
+                        "image": "/agent-002.png",
+                        "href": "#"
                     },
                     {
                         "category": "RETAIL & E-COMMERCE",
                         "title": "وكيل الذكاء الاصطناعي لمستودعات سلسلة التوريد",
                         "workflows": ["معالجة الطلبات", "تنفيذ الطلبات"],
-                        "image": "/agent-003.png"
+                        "image": "/agent-003.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -61,7 +64,8 @@
                             "التعامل مع الخصومات الشخصية",
                             "استرداد ما بعد الأتمتة"
                         ],
-                        "image": "/agent-004.png"
+                        "image": "/agent-004.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -71,7 +75,8 @@
                             "التعامل مع حالة الطلب",
                             "التعامل مع طلبات إرجاع المنتج"
                         ],
-                        "image": "/agent-005.png"
+                        "image": "/agent-005.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
@@ -81,25 +86,29 @@
                             "إعادة توجيه البريد الإلكتروني",
                             "الرد التلقائي"
                         ],
-                        "image": "/agent-006.png"
+                        "image": "/agent-006.png",
+                        "href": "#"
                     },
                     {
                         "category": "ENTERTAINMENT & MEDIA",
                         "title": "وكيل الذكاء الاصطناعي لتجميع المحتوى",
                         "workflows": ["جمع المعلومات من مصادر متنوعة"],
-                        "image": "/agent-007.png"
+                        "image": "/agent-007.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "وكيل الذكاء الاصطناعي للحسابات المستحقة القبض",
                         "workflows": ["ترحيل الفواتير"],
-                        "image": "/agent-008.png"
+                        "image": "/agent-008.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "وكيل الذكاء الاصطناعي لدعم الفواتير",
                         "workflows": ["نزاع الفواتير", "دعم الفواتير"],
-                        "image": "/agent-009.png"
+                        "image": "/agent-009.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
@@ -109,13 +118,15 @@
                             "مراقبة الامتثال",
                             "التعامل مع طلبات الاشتراك"
                         ],
-                        "image": "/agent-010.png"
+                        "image": "/agent-010.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "وكيل الذكاء الاصطناعي للوجستيات والشحن: توقف عن فقدان الشحنات بسبب التأخيرات الجمركية وأخطاء التوثيق",
                         "workflows": ["بيانات الشحن"],
-                        "image": "/agent-011.png"
+                        "image": "/agent-011.png",
+                        "href": "#"
                     }
                 ]
             }
@@ -141,31 +152,36 @@
                     "img": "/case-studies-01.avif",
                     "category": "العقارات والممتلكات",
                     "title": "بنك أوروبي رائد يحل مشكلة التحقق من العنوان باستخدام عملاء Beam AI",
-                    "cta": "قراءة دراسة الحالة"
+                    "cta": "قراءة دراسة الحالة",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-02.avif",
                     "category": "الخدمات المالية والمصرفية",
                     "title": "تبسيط إنشاء عروض الأسعار باستخدام الأتمتة بالذكاء الاصطناعي",
-                    "cta": "قراءة دراسة الحالة"
+                    "cta": "قراءة دراسة الحالة",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-03.avif",
                     "category": "سلسلة التوريد والخدمات اللوجستية",
                     "title": "تحويل إدارة الطلبات باستخدام عملاء الذكاء الاصطناعي لمورد مخبوزات B2B رائد",
-                    "cta": "قراءة دراسة الحالة"
+                    "cta": "قراءة دراسة الحالة",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-04.avif",
                     "category": "التجزئة والتجارة الإلكترونية",
                     "title": "أتمتة إدارة جهات الاتصال عبر 5 أنظمة باستخدام الذكاء الاصطناعي الذكي",
-                    "cta": "قراءة دراسة الحالة"
+                    "cta": "قراءة دراسة الحالة",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-05.avif",
                     "category": "الاستعانة بمصادر خارجية لعمليات الأعمال",
                     "title": "كيف استبدلت شركة كيميائية عالمية خدمات الاستعانة بمصادر خارجية بعملاء الذكاء الاصطناعي وخفضت التكاليف بنسبة 63٪",
-                    "cta": "قراءة دراسة الحالة"
+                    "cta": "قراءة دراسة الحالة",
+                    "href": "#"
                 }
             ]
         },
@@ -182,31 +198,36 @@
                     "authorImage": "/news-author.jpg",
                     "date": "23 أكتوبر 2025",
                     "image": "/news-01.jpg",
-                    "featured": true
+                    "featured": true,
+                    "href": "#"
                 },
                 {
                     "id": 2,
                     "title": "تبني APA: أسرع طريق لأتمتة المؤسسات",
                     "image": "/news-02.png",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 3,
                     "title": "سناب شات، أليكسا، ChatGPT، تعطلت معًا: انقطاع AWS في أكتوبر 2025",
                     "image": "/news-03.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 4,
                     "title": "التطوير الموجه بالمواصفات: قم ببناء ما تقصده، لا ما تخمنه",
                     "image": "/news-04.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 5,
                     "title": "من نماذج اللغة الكبيرة إلى وكلاء الذكاء الاصطناعي للمؤسسات ذاتية التعلم",
                     "image": "/news-05.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 }
             ]
         },
@@ -308,55 +329,55 @@
             "copyright": "© Beam AI. جميع الحقوق محفوظة 2025",
             "Navigation": {
                 "Platform": [
-                    {"title": "منصة عملاء الذكاء الاصطناعي", "link": "/platform/agent-platform"},
-                    {"title": "أدوات عملاء الذكاء الاصطناعي", "link": "/platform/agent-tools"},
-                    {"title": "عملاء الذكاء الاصطناعي", "link": "/platform/agents"},
-                    {"title": "سير العمل الذكي", "link": "/platform/workflows"},
-                    {"title": "نظام تشغيل العملاء", "link": "/platform/agentos"},
+                    {"title": "منصة عملاء الذكاء الاصطناعي", "link": "#"},
+                    {"title": "أدوات عملاء الذكاء الاصطناعي", "link": "#"},
+                    {"title": "عملاء الذكاء الاصطناعي", "link": "#"},
+                    {"title": "سير العمل الذكي", "link": "#"},
+                    {"title": "نظام تشغيل العملاء", "link": "#"},
                     {
                         "title": "قاعدة البيانات والذاكرة وRAG",
-                        "link": "/platform/database-memory-rag"
+                        "link": "#"
                     },
-                    {"title": "التكاملات", "link": "/platform/integrations"}
+                    {"title": "التكاملات", "link": "#"}
                 ],
                 "Solutions": [
-                    {"title": "الاستعانة بمصادر خارجية", "link": "/solutions/bpo"},
-                    {"title": "حلول ذكاء اصطناعي مخصصة", "link": "/solutions/custom-ai"},
-                    {"title": "خدمة العملاء", "link": "/solutions/customer-service"},
-                    {"title": "تحصيل الديون", "link": "/solutions/debt-collection"},
-                    {"title": "الخدمات المالية", "link": "/solutions/financial-services"},
-                    {"title": "الرعاية الصحية", "link": "/solutions/healthcare"},
-                    {"title": "التأمين", "link": "/solutions/insurance"},
-                    {"title": "التوظيف وRPO", "link": "/solutions/staffing-rpo"},
-                    {"title": "اكتساب المواهب", "link": "/solutions/talent-acquisition"},
-                    {"title": "إدارة الممتلكات", "link": "/solutions/property-management"}
+                    {"title": "الاستعانة بمصادر خارجية", "link": "#"},
+                    {"title": "حلول ذكاء اصطناعي مخصصة", "link": "#"},
+                    {"title": "خدمة العملاء", "link": "#"},
+                    {"title": "تحصيل الديون", "link": "#"},
+                    {"title": "الخدمات المالية", "link": "#"},
+                    {"title": "الرعاية الصحية", "link": "#"},
+                    {"title": "التأمين", "link": "#"},
+                    {"title": "التوظيف وRPO", "link": "#"},
+                    {"title": "اكتساب المواهب", "link": "#"},
+                    {"title": "إدارة الممتلكات", "link": "#t"}
                 ],
                 "Resources": [
-                    {"title": "رؤى ذكية", "link": "/resources/insights"},
-                    {"title": "الأتمتة الذكية 101", "link": "/resources/automation-101"},
-                    {"title": "ندوات عبر الإنترنت", "link": "/resources/webinars"},
-                    {"title": "سجل التغييرات", "link": "/resources/changelog"},
-                    {"title": "برنامج الشركاء", "link": "/resources/partner-program"},
-                    {"title": "أكاديمية Beam", "link": "/resources/beam-academy"},
-                    {"title": "حالات الاستخدام", "link": "/resources/use-cases"},
-                    {"title": "دراسات الحالة", "link": "/resources/case-studies"},
-                    {"title": "العملاء", "link": "/resources/customers"},
-                    {"title": "أصلي بالذكاء الاصطناعي", "link": "/resources/ai-native"}
+                    {"title": "رؤى ذكية", "link": "#"},
+                    {"title": "الأتمتة الذكية 101", "link": "#"},
+                    {"title": "ندوات عبر الإنترنت", "link": "#"},
+                    {"title": "سجل التغييرات", "link": "#"},
+                    {"title": "برنامج الشركاء", "link": "#"},
+                    {"title": "أكاديمية Beam", "link": "#"},
+                    {"title": "حالات الاستخدام", "link": "#"},
+                    {"title": "دراسات الحالة", "link": "#"},
+                    {"title": "العملاء", "link": "#"},
+                    {"title": "أصلي بالذكاء الاصطناعي", "link": "#e"}
                 ],
                 "Company": [
-                    {"title": "معلومات عنا", "link": "/company/about"},
-                    {"title": "الوظائف", "link": "/company/career"},
-                    {"title": "اتصل بنا", "link": "/company/contact"},
-                    {"title": "طلب عرض توضيحي", "link": "/company/request-demo"},
-                    {"title": "مركز الثقة", "link": "/company/trust-center"}
+                    {"title": "معلومات عنا", "link": "#"},
+                    {"title": "الوظائف", "link": "#"},
+                    {"title": "اتصل بنا", "link": "#"},
+                    {"title": "طلب عرض توضيحي", "link": "#"},
+                    {"title": "مركز الثقة", "link": "#r"}
                 ],
                 "Legal": [
-                    {"title": "القانونية", "link": "/company/legal"},
-                    {"title": "سياسة الخصوصية", "link": "/company/privacy-policy"},
-                    {"title": "الأمان", "link": "/company/security"},
-                    {"title": "حماية البيانات", "link": "/company/data-protection"},
-                    {"title": "شروط الاستخدام", "link": "/company/terms-of-use"},
-                    {"title": "بصمة", "link": "/company/imprint"}
+                    {"title": "القانونية", "link": "#"},
+                    {"title": "سياسة الخصوصية", "link": "#"},
+                    {"title": "الأمان", "link": "#"},
+                    {"title": "حماية البيانات", "link": "#"},
+                    {"title": "شروط الاستخدام", "link": "#"},
+                    {"title": "بصمة", "link": "#t"}
                 ]
             }
         }

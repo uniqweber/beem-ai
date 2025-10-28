@@ -137,7 +137,7 @@ export default function Contact() {
         <div className="max-container grid grid-cols-1 lg:grid-cols-2 gap-16 pt-20 pb-40">
             <div className=" space-y-12">
                 <div>
-                    <h1 className="text-5xl font-medium mb-5 leading-tight tracking-tight">
+                    <h1 className="text-4xl md:text-5xl font-medium mb-5 leading-tight tracking-tight">
                         {t("title")}
                     </h1>
 
@@ -161,7 +161,7 @@ export default function Contact() {
                     <h2 className="text-xl font-medium mb-5 text-white">
                         {t("section_results_title")}
                     </h2>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid md:grid-cols-2 gap-4">
                         <StatBlock value={t("stat_1_value")} label={t("stat_1_label")} />
 
                         <StatBlock value={t("stat_2_value")} label={t("stat_2_label")} />

@@ -1,4 +1,5 @@
 "use client";
+import {Link} from "@/i18n/navigation";
 import {motion} from "framer-motion";
 import {useTranslations} from "next-intl";
 import Image from "next/image";
@@ -11,9 +12,10 @@ export interface NewsArticle {
     date?: string;
     image: string;
     featured: boolean;
+    href: string;
 }
 
-export default function AgenticInsights() {
+export default function News({params}: {params: string}) {
     const t = useTranslations("Home.News");
     const articles = t.raw("Articles") as NewsArticle[];
 
@@ -46,7 +48,11 @@ export default function AgenticInsights() {
                     transition={{duration: 0.6, delay: 0.2}}
                     className="relative group cursor-pointer"
                 >
-                    <div className="relative h-[450px] rounded-2xl overflow-hidden ">
+                    <Link
+                        href={featuredArticle.href}
+                        locale={params}
+                        className="relative block h-[450px] rounded-2xl overflow-hidden "
+                    >
                         <Image
                             src={featuredArticle.image}
                             alt={featuredArticle.title}
@@ -77,7 +83,7 @@ export default function AgenticInsights() {
                                 <span>{featuredArticle.date}</span>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </motion.article>
 
                 {/* Side Articles */}
@@ -89,25 +95,30 @@ export default function AgenticInsights() {
                             whileInView={{opacity: 1, x: 0}}
                             viewport={{once: true}}
                             transition={{duration: 0.6, delay: 0.1 * (index + 1)}}
-                            className="flex gap-4 cursor-pointer"
                         >
-                            <div className="w-24 h-24 rounded-lg overflow-hidden shrink-0">
-                                <Image
-                                    src={article.image}
-                                    alt={article.title}
-                                    width={200}
-                                    height={200}
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                            <div className="flex flex-col justify-center">
-                                <span className="text-sm text-white/40 font-medium mb-2">
-                                    {t("category")}
-                                </span>
-                                <h4 className="text-lg font-semibold leading-snug group-hover:text-purple-300 transition-colors">
-                                    {article.title}
-                                </h4>
-                            </div>
+                            <Link
+                                href={article.href}
+                                locale={params}
+                                className="flex gap-4 cursor-pointer"
+                            >
+                                <div className="w-24 h-24 rounded-lg overflow-hidden shrink-0">
+                                    <Image
+                                        src={article.image}
+                                        alt={article.title}
+                                        width={200}
+                                        height={200}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center">
+                                    <span className="text-sm text-white/40 font-medium mb-2">
+                                        {t("category")}
+                                    </span>
+                                    <h4 className="text-lg font-semibold leading-snug group-hover:text-purple-300 transition-colors">
+                                        {article.title}
+                                    </h4>
+                                </div>
+                            </Link>
                         </motion.article>
                     ))}
                 </div>
@@ -120,9 +131,13 @@ export default function AgenticInsights() {
                 transition={{duration: 0.6, delay: 0.6}}
                 className="flex justify-center"
             >
-                <span className="border  border-white/15 text-sm py-2 px-3 rounded-lg">
+                <Link
+                    href="#"
+                    locale={params}
+                    className="border  border-white/15 text-sm py-2 px-3 rounded-lg"
+                >
                     {t("cta")}
-                </span>
+                </Link>
             </motion.div>
         </section>
     );

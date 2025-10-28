@@ -7,11 +7,11 @@ import Customers from "@/components/home/customers";
 import FAQ from "@/components/home/faq";
 import Hero from "@/components/home/hero";
 import Logos from "@/components/home/logos";
-import AgenticInsights from "@/components/home/news";
+import News from "@/components/home/news";
 import OS from "@/components/home/os";
+import PricingSection from "@/components/home/pricing";
 import Solutions from "@/components/home/solutions";
 import {routing} from "@/i18n/routing";
-import PricingSection from "@/components/home/pricing";
 
 type Props = {params: Promise<{locale: string}>};
 
@@ -40,7 +40,7 @@ export default async function Home({params}: Props) {
             <OS params={locale} />
             <Benefits params={locale} />
             <Customers params={locale} />
-            <AgenticInsights />
+            <News params={locale} />
             <Solutions params={locale} />
             <PricingSection params={locale} />
             <FAQ params={locale} />

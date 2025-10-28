@@ -40,19 +40,22 @@
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "Data Entry AI Agent",
                         "workflows": ["Data Collection", "Data Entry Execution"],
-                        "image": "/agent-001.png"
+                        "image": "/agent-001.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "RFP AI Agent",
                         "workflows": ["Compliance Check", "Proposal Drafting and Formatting"],
-                        "image": "/agent-002.png"
+                        "image": "/agent-002.png",
+                        "href": "#"
                     },
                     {
                         "category": "RETAIL & E-COMMERCE",
                         "title": "Supply Chain Warehouse AI Agent",
                         "workflows": ["Order Processing", "Order Fulfillment"],
-                        "image": "/agent-003.png"
+                        "image": "/agent-003.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -62,7 +65,8 @@
                             "Personalized Discount Handling",
                             "Post Automation Recovery"
                         ],
-                        "image": "/agent-004.png"
+                        "image": "/agent-004.png",
+                        "href": "#"
                     },
                     {
                         "category": "CONSUMER SERVICE",
@@ -72,31 +76,36 @@
                             "Order Status Handling",
                             "Product Return Requests Handling"
                         ],
-                        "image": "/agent-005.png"
+                        "image": "/agent-005.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "Email Triage AI Agent",
                         "workflows": ["Email Classification", "Email Forwarding", "Auto Reply"],
-                        "image": "/agent-006.png"
+                        "image": "/agent-006.png",
+                        "href": "#"
                     },
                     {
                         "category": "ENTERTAINMENT & MEDIA",
                         "title": "Content Aggregation AI Agent",
                         "workflows": ["Information Collection from Diverse Sources"],
-                        "image": "/agent-007.png"
+                        "image": "/agent-007.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "Account Receivable AI Agent",
                         "workflows": ["Invoice Posting"],
-                        "image": "/agent-008.png"
+                        "image": "/agent-008.png",
+                        "href": "#"
                     },
                     {
                         "category": "GENERAL PURPOSE SOLVERS",
                         "title": "Billing Support AI Agent",
                         "workflows": ["Billing Dispute", "Billing Support"],
-                        "image": "/agent-009.png"
+                        "image": "/agent-009.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
@@ -106,13 +115,15 @@
                             "Compliance Monitor",
                             "Subscription Requests Handling"
                         ],
-                        "image": "/agent-010.png"
+                        "image": "/agent-010.png",
+                        "href": "#"
                     },
                     {
                         "category": "FINANCIAL SERVICES & BANKING",
                         "title": "Logistics & Shipping AI Agent: Stop losing shipments to customs delays and documentation errors",
                         "workflows": ["Shipping Data"],
-                        "image": "/agent-011.png"
+                        "image": "/agent-011.png",
+                        "href": "#"
                     }
                 ]
             }
@@ -138,31 +149,36 @@
                     "img": "/case-studies-01.avif",
                     "category": "Property & Real Estate",
                     "title": "Leading European Neo-Bank Solves Address Verification with Beam AI Agents",
-                    "cta": "Read Case Study"
+                    "cta": "Read Case Study",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-02.avif",
                     "category": "Financial Services & Banking",
                     "title": "Streamlining Quotation Generation with AI Automation",
-                    "cta": "Read Case Study"
+                    "cta": "Read Case Study",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-03.avif",
                     "category": "Supply Chain & Logistics",
                     "title": "Transforming Order Management with AI Agents for a Leading B2B Bakery Supplier",
-                    "cta": "Read Case Study"
+                    "cta": "Read Case Study",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-04.avif",
                     "category": "Retail & E-Commerce",
                     "title": "Automating Contact Management Across 5 Systems with Agentic AI",
-                    "cta": "Read Case Study"
+                    "cta": "Read Case Study",
+                    "href": "#"
                 },
                 {
                     "img": "/case-studies-05.avif",
                     "category": "BPO",
                     "title": "How a Global Chemical Company Replaced Their BPO with AI Agents and Reduced Costs by 63%",
-                    "cta": "Read Case Study"
+                    "cta": "Read Case Study",
+                    "href": "#"
                 }
             ]
         },
@@ -179,31 +195,36 @@
                     "authorImage": "/news-author.jpg",
                     "date": "Oct 23, 2025",
                     "image": "/news-01.jpg",
-                    "featured": true
+                    "featured": true,
+                    "href": "#"
                 },
                 {
                     "id": 2,
                     "title": "Adopting APA: The Fastest Route to Enterprise Automation",
                     "image": "/news-02.png",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 3,
                     "title": "Snapchat, Alexa, ChatGPT, Down Together: The Oct 2025 AWS Outage",
                     "image": "/news-03.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 4,
                     "title": "Spec Driven Development: Build what you mean, not what you guess",
                     "image": "/news-04.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 },
                 {
                     "id": 5,
                     "title": "From Large Language Models to Self-Learning Enterprise AI Agents",
                     "image": "/news-05.jpg",
-                    "featured": false
+                    "featured": false,
+                    "href": "#"
                 }
             ]
         },
@@ -306,52 +327,52 @@
             "copyright": "© Beam AI. All rights reserved 2025",
             "Navigation": {
                 "Platform": [
-                    {"title": "AI Agent Platform", "link": "/platform/agent-platform"},
-                    {"title": "AI Agent Tools", "link": "/platform/agent-tools"},
-                    {"title": "AI Agents", "link": "/platform/agents"},
-                    {"title": "Agentic Workflows", "link": "/platform/workflows"},
-                    {"title": "AgentOS", "link": "/platform/agentos"},
-                    {"title": "Database, Memory & Rag", "link": "/platform/database-memory-rag"},
-                    {"title": "Integrations", "link": "/platform/integrations"}
+                    {"title": "AI Agent Platform", "link": "#"},
+                    {"title": "AI Agent Tools", "link": "#"},
+                    {"title": "AI Agents", "link": "#"},
+                    {"title": "Agentic Workflows", "link": "#"},
+                    {"title": "AgentOS", "link": "#"},
+                    {"title": "Database, Memory & Rag", "link": "#"},
+                    {"title": "Integrations", "link": "#s"}
                 ],
                 "Solutions": [
-                    {"title": "BPO", "link": "/solutions/bpo"},
-                    {"title": "Custom AI Solutions", "link": "/solutions/custom-ai"},
-                    {"title": "Customer Service", "link": "/solutions/customer-service"},
-                    {"title": "Debt Collection", "link": "/solutions/debt-collection"},
-                    {"title": "Financial Services", "link": "/solutions/financial-services"},
-                    {"title": "Healthcare", "link": "/solutions/healthcare"},
-                    {"title": "Insurance", "link": "/solutions/insurance"},
-                    {"title": "Staffing & RPO", "link": "/solutions/staffing-rpo"},
-                    {"title": "Talent Acquisition", "link": "/solutions/talent-acquisition"},
-                    {"title": "Property Management", "link": "/solutions/property-management"}
+                    {"title": "BPO", "link": "#"},
+                    {"title": "Custom AI Solutions", "link": "#"},
+                    {"title": "Customer Service", "link": "#"},
+                    {"title": "Debt Collection", "link": "#"},
+                    {"title": "Financial Services", "link": "#"},
+                    {"title": "Healthcare", "link": "#"},
+                    {"title": "Insurance", "link": "#"},
+                    {"title": "Staffing & RPO", "link": "#"},
+                    {"title": "Talent Acquisition", "link": "#"},
+                    {"title": "Property Management", "link": "#t"}
                 ],
                 "Resources": [
-                    {"title": "Agentic Insights", "link": "/resources/insights"},
-                    {"title": "Agentic Automation 101", "link": "/resources/automation-101"},
-                    {"title": "Webinars", "link": "/resources/webinars"},
-                    {"title": "Changelog", "link": "/resources/changelog"},
-                    {"title": "Partner Program", "link": "/resources/partner-program"},
-                    {"title": "Beam Academy", "link": "/resources/beam-academy"},
-                    {"title": "Use Cases", "link": "/resources/use-cases"},
-                    {"title": "Case Studies", "link": "/resources/case-studies"},
-                    {"title": "Customers", "link": "/resources/customers"},
-                    {"title": "AI Native", "link": "/resources/ai-native"}
+                    {"title": "Agentic Insights", "link": "#"},
+                    {"title": "Agentic Automation 101", "link": "#"},
+                    {"title": "Webinars", "link": "#"},
+                    {"title": "Changelog", "link": "#"},
+                    {"title": "Partner Program", "link": "#"},
+                    {"title": "Beam Academy", "link": "#"},
+                    {"title": "Use Cases", "link": "#"},
+                    {"title": "Case Studies", "link": "#"},
+                    {"title": "Customers", "link": "#"},
+                    {"title": "AI Native", "link": "#e"}
                 ],
                 "Company": [
-                    {"title": "About Us", "link": "/company/about"},
-                    {"title": "Career", "link": "/company/career"},
-                    {"title": "Contact", "link": "/company/contact"},
-                    {"title": "Request Demo", "link": "/company/request-demo"},
-                    {"title": "Trust Center", "link": "/company/trust-center"}
+                    {"title": "About Us", "link": "#"},
+                    {"title": "Career", "link": "#"},
+                    {"title": "Contact", "link": "#"},
+                    {"title": "Request Demo", "link": "#"},
+                    {"title": "Trust Center", "link": "#r"}
                 ],
                 "Legal": [
-                    {"title": "Legal", "link": "/company/legal"},
-                    {"title": "Privacy Policy", "link": "/company/privacy-policy"},
-                    {"title": "Security", "link": "/company/security"},
-                    {"title": "Data Protection", "link": "/company/data-protection"},
-                    {"title": "Terms of Use", "link": "/company/terms-of-use"},
-                    {"title": "Imprint", "link": "/company/imprint"}
+                    {"title": "Legal", "link": "#"},
+                    {"title": "Privacy Policy", "link": "#"},
+                    {"title": "Security", "link": "#"},
+                    {"title": "Data Protection", "link": "#"},
+                    {"title": "Terms of Use", "link": "#"},
+                    {"title": "Imprint", "link": "#t"}
                 ]
             }
         }

@@ -70,7 +70,8 @@ export default async function Footer({params}: {params: string}) {
                             className="h-12 w-auto"
                         />
                         <Link
-                            href="/trust-center"
+                            href="https://security.beam.ai/"
+                            target="_blank"
                             className="text-sm text-white/50 hover:text-white transition-colors flex items-center gap-2 ml-1 mt-3"
                         >
                             <div className="bg-white/10 rounded px-1 py-0.5">
@@ -84,7 +85,11 @@ export default async function Footer({params}: {params: string}) {
                         <div className="flex-1 max-w-2xl">
                             <h3 className="text-lg font-medium mb-3">{t("subscribe")}</h3>
                             <div className="flex gap-3 h-11">
-                                <input type="email" placeholder="name@email.com" className="h-full bg-white/10 w-60 md:w-72 px-4 rounded-lg" />
+                                <input
+                                    type="email"
+                                    placeholder="name@email.com"
+                                    className="h-full bg-white/10 w-60 md:w-72 px-4 rounded-lg"
+                                />
                                 <button className="bg-white px-4 rounded-lg text-black font-semibold h-full">
                                     {t("cta")}
                                 </button>

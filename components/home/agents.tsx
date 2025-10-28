@@ -1,3 +1,4 @@
+import {Link} from "@/i18n/navigation";
 import {getTranslations} from "next-intl/server";
 import AgentCarousel from "./agent-carousel";
 
@@ -19,12 +20,16 @@ export default async function Agents({params}: {params: string}) {
                 <p className="max-w-2xl text-white/35 mx-auto text-[17px] mb-5">
                     {t("description")}
                 </p>
-                <button className="bg-primary h-11 hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl">
+                <Link
+                    href="#"
+                    locale={params}
+                    className="bg-primary h-11 inline-flex items-center justify-center hover:bg-primary/80 duration-300 border border-blue-500 px-4 rounded-xl"
+                >
                     {t("cta")}
-                </button>
+                </Link>
             </div>
 
-            <AgentCarousel />
+            <AgentCarousel locale={params} />
         </section>
     );
 }

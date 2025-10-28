@@ -21,9 +21,17 @@ export default async function Hero({params}: {params: string}) {
                         </span>
                     </span>
                 </Link>
-                <h1 className="text-4xl md:w-10/12  font-medium tracking-[-0.015em] mt-4 mb-6 lg:text-6xl pr-4">{t("subtitle")}</h1>
+                <h1 className="text-4xl md:w-10/12  font-medium tracking-[-0.015em] mt-4 mb-6 lg:text-6xl pr-4">
+                    {t("subtitle")}
+                </h1>
                 <p className="text-lg md:w-8/12 text-white/35 mb-6">{t("description")}</p>
-                <button className="border h-11 hover:bg-white/10 duration-300 flex items-center justify-center px-4 rounded-xl border-white/40">{t("cta")}</button>
+                <Link
+                    href="/contact"
+                    locale={params}
+                    className="border h-11  hover:bg-white/10 duration-300 inline-flex items-center justify-center px-4 rounded-xl border-white/40"
+                >
+                    {t("cta")}
+                </Link>
             </div>
             <div className="">
                 <Image
