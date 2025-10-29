@@ -1,14 +1,16 @@
-// components/home/Customers.tsx
-import {Link} from "@/i18n/navigation";
-import {ArrowRight} from "lucide-react";
-import {getTranslations} from "next-intl/server";
-import Image from "next/image";
+"use client";
 
-export default async function Customers({params}: {params: string}) {
-    const t = await getTranslations({
-        locale: params,
-        namespace: "Home.Customers",
-    });
+import {Link} from "@/i18n/navigation";
+import {ArrowRight, ChevronLeft, ChevronRight} from "lucide-react";
+import {useTranslations} from "next-intl";
+import Image from "next/image";
+import {Autoplay, Navigation} from "swiper/modules";
+import {Swiper, SwiperSlide} from "swiper/react";
+
+import "swiper/css";
+
+export default function Customers({params}: {params: string}) {
+    const t = useTranslations("Home.Customers");
 
     const caseStudies = t.raw("CaseStudies") as Array<{
         category: string;
@@ -19,7 +21,7 @@ export default async function Customers({params}: {params: string}) {
     }>;
 
     return (
-        <section className="max-container pt-2 overflow-hidden">
+        <section className="max-container pt-2 ">
             <div className="text-center ">
                 <span className="border border-white/15 text-sm py-2 px-3 rounded-lg">
                     {t("title")}
@@ -38,9 +40,14 @@ export default async function Customers({params}: {params: string}) {
                     {t("cta")}
                 </Link>
             </div>
-            <div className="mt-20 flex gap-6 md:gap-10">
-                {caseStudies.map((item, idx: number) => (
-                    <Link href={item.href} locale={params} key={idx} className="w-80 md:w-[350px] block shrink-0">
+            <div className="mt-20  relative">
+                {/* {caseStudies.map((item, idx: number) => (
+                    <Link
+                        href={item.href}
+                        locale={params}
+                        key={idx}
+                        className="w-80 md:w-[350px] block shrink-0"
+                    >
                         <Image
                             src={item.img}
                             alt={item.title}
@@ -54,7 +61,80 @@ export default async function Customers({params}: {params: string}) {
                             {item.cta} <ArrowRight size={20} />{" "}
                         </button>
                     </Link>
-                ))}
+                ))} */}
+
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={16}
+                    slidesPerView={1}
+                    autoplay={{delay: 3000, disableOnInteraction: false}}
+                    grabCursor
+                    speed={1400}
+                    navigation={{
+                        nextEl: ".swiper-button-next-custom",
+                        prevEl: ".swiper-button-prev-custom",
+                    }}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 3.5,
+                        },
+                    }}
+                    loop
+                >
+                    {caseStudies.map((item, index) => (
+                        <SwiperSlide key={index} className="h-full">
+                            <Link
+                                href={item.href}
+                                locale={params}
+                                key={index}
+                                className=" block border rounded-2xl overflow-hidden border-white/15 md:border-0 md:overflow-auto md:rounded-none"
+                            >
+                                <Image
+                                    src={item.img}
+                                    alt={item.title}
+                                    width={400}
+                                    height={400}
+                                    className="w-full lg:h-[350px] object-cover rounded-2xl"
+                                />
+                                <div className="px-4 pb-4 md:px-0 md:pb-0">
+                                    <p className="mt-4 text-white/35 font-medium ">
+                                        {item.category}
+                                    </p>
+                                    <h3 className="text-2xl mt-2 font-semibold mb-4">
+                                        {item.title}
+                                    </h3>
+                                    <button className="flex items-center gap-2 text-white/35 font-medium text-[17px]">
+                                        {item.cta} <ArrowRight size={20} />{" "}
+                                    </button>
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+
+                <div className="absolute inset-y-0 -left-1 lg:-left-5 flex items-center z-20">
+                    <div className="swiper-button-prev-custom cursor-pointer size-9 bg-white/10 flex items-center justify-center rounded-full backdrop-blur-md">
+                        <ChevronLeft className="w-5 h-5" />
+                    </div>
+                </div>
+
+                <div className="absolute inset-y-0 -right-1 lg:-right-5 flex items-center z-20">
+                    <div className="swiper-button-next-custom size-9 cursor-pointer bg-white/10 flex items-center justify-center rounded-full backdrop-blur-md">
+                        <ChevronRight className="w-6 h-5" />
+                    </div>
+                </div>
+
+                <div
+                    dir="ltr"
+                    className="absolute hidden md:block inset-y-0 bg-linear-to-r -left-0.5 from-black to-transparent px-5 md:px-10 z-10"
+                ></div>
+                <div
+                    dir="ltr"
+                    className="absolute hidden md:block inset-y-0 bg-linear-to-l -right-0.5 from-black to-transparent px-5 md:px-10 z-10"
+                ></div>
             </div>
         </section>
     );

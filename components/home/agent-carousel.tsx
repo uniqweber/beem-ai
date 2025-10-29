@@ -93,13 +93,13 @@ export default function AgentCarousel({locale}: {locale: string}) {
                 ))}
             </Swiper>
 
-            <div className="absolute inset-y-0 -left-1 md:-left-5 flex items-center z-20">
+            <div className="absolute inset-y-0 -left-1 lg:-left-5 flex items-center z-20">
                 <div className="swiper-button-prev-custom cursor-pointer size-9 bg-white/10 flex items-center justify-center rounded-full backdrop-blur-md">
                     <ChevronLeft className="w-5 h-5" />
                 </div>
             </div>
 
-            <div className="absolute inset-y-0 -right-1 md:-right-5 flex items-center z-20">
+            <div className="absolute inset-y-0 -right-1 lg:-right-5 flex items-center z-20">
                 <div className="swiper-button-next-custom size-9 cursor-pointer bg-white/10 flex items-center justify-center rounded-full backdrop-blur-md">
                     <ChevronRight className="w-6 h-5" />
                 </div>

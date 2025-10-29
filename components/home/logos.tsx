@@ -26,7 +26,7 @@ export default async function LogosSlider({params}: {params: string}) {
 
     return (
         <div className="relative">
-            <h2 className="uppercase text-center mb-10 font-semibold text-white/60">
+            <h2 className="uppercase max-w-xs mx-auto md:max-w-full text-center mb-10 font-semibold text-white/60">
                 {t("Logos")}
             </h2>
 

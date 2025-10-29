@@ -7,8 +7,8 @@ export default async function Hero({params}: {params: string}) {
     const t = await getTranslations({locale: params, namespace: "Home.Hero"});
 
     return (
-        <section className="md:h-[150vh] overflow-hidden">
-            <div className="max-w-5xl relative z-10 pt-20 px-4 mx-auto">
+        <section className="  lg:h-[150vh] overflow-hidden">
+            <div className="max-w-5xl relative z-10 pt-20 pb-10 lg:pb-0 px-4 mx-auto">
                 <Link
                     href="/contact"
                     locale={params}

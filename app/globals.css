@@ -15,7 +15,7 @@ button {
 
 @layer utilities {
     .max-container {
-        @apply max-w-[1200px] mx-auto px-4 lg:px-0;
+        @apply max-w-[1200px] mx-auto px-4 xl:px-0;
     }
     .gradient-bg {
         background: linear-gradient(#ff2ef705 0%, #ff2ef740 100%);
