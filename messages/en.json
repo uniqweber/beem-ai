@@ -420,6 +420,7 @@
                 "day": "Thursday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "From Pilot to Production: Scaling Your First Successful AI Agent",
                         "author": "Derya Firat",
@@ -440,6 +441,7 @@
                 "day": "Friday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "17:00",
                         "title": "High-Volume Hiring: Self Learning Agents to Reduce Time to Hire by 60%",
                         "author": "Sufyaan Jogee",
@@ -462,6 +464,7 @@
                 "day": "Wednesday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "Customer Service at Scale: Wie KI-Agenten 10x schneller reagieren als Menschen",
                         "author": "Derya Firat",
@@ -482,6 +485,7 @@
                 "day": "Thursday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "Is Your Data Ready for AI? Assessment Guide",
                         "author": "Derya Firat",
@@ -497,6 +501,7 @@
                 "day": "Wednesday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:00",
                         "title": "AI Agents for UAE Businesses: Transforming Operations in the World's Most Dynamic Market",
                         "author": "Mo Bekdache",

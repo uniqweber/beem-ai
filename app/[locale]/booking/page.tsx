@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "@/i18n/navigation";
 import {Calendar, Monitor, Video} from "lucide-react";
 import {useTranslations} from "next-intl";
 import Image from "next/image";
@@ -12,6 +13,7 @@ interface EventItem {
     tags: string[];
     image: string;
     bgColor: string;
+    href: string;
 }
 
 interface EventGroup {
@@ -134,9 +136,9 @@ export default function Booking() {
                                 </div>
 
                                 <div className="mt-6">
-                                    <button className="w-full py-2 px-4 rounded-lg text-sm font-semibold text-white bg-teal-600 hover:bg-teal-500 transition-colors duration-200">
+                                    <Link href={event.href} className="w-full block text-center py-2 px-4 rounded-lg text-sm font-semibold text-white bg-teal-600 hover:bg-teal-500 transition-colors duration-200">
                                         {t("register_button")}
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         ))}

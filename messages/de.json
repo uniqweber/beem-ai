@@ -430,6 +430,7 @@
                 "day": "Thursday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "Vom Pilot zur Produktion: Skalierung Ihres ersten erfolgreichen KI-Agenten",
                         "author": "Derya Firat",
@@ -450,6 +451,7 @@
                 "day": "Friday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "17:00",
                         "title": "Massenrekrutierung: Selbstlernende Agenten zur Reduzierung der Einstellungszeit um 60%",
                         "author": "Sufyaan Jogee",
@@ -472,6 +474,7 @@
                 "day": "Wednesday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "Kundenservice auf Skala: Wie KI-Agenten 10x schneller reagieren als Menschen",
                         "author": "Derya Firat",
@@ -492,6 +495,7 @@
                 "day": "Thursday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:30",
                         "title": "Sind Ihre Daten bereit für KI? Ein Bewertungsleitfaden",
                         "author": "Derya Firat",
@@ -507,6 +511,7 @@
                 "day": "Wednesday",
                 "items": [
                     {
+                        "href": "#",
                         "time": "20:00",
                         "title": "KI-Agenten für VAE-Unternehmen: Transformation des Betriebs im dynamischsten Markt der Welt",
                         "author": "Mo Bekdache",
